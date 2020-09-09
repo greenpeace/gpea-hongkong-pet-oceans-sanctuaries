@@ -1,0 +1,120 @@
+/* @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css); */
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap);
+
+body {
+	font-family: "Noto Sans TC", "Microsoft YaHei", "Microsoft JhengHei", Arial, sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#en-form {
+	display: none;
+}
+
+
+.display-none {
+	display: none !important;
+}
+
+#principal_message {
+	z-index: 2;
+}
+
+#principal_message p {
+	/* color: #fff !important; */
+	text-shadow: 0 2px 6px rgba(0, 0, 0, 0.2) !important;
+}
+#principal_message.principal_message p {
+	font-size: 1.5rem !important;
+}
+
+.last_name {
+	width: 39% !important;
+}
+
+.first_name {
+	width: 59% !important;
+}
+
+.see-more-arrow-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5rem;
+
+	img {
+		width: 5rem;
+		animation-iteration-count:infinite;
+		animation-name: fadeinphoto;
+		animation-duration: 2s;
+		animation-timing-function: ease-out;
+	}
+}
+
+a.not-obvious-link {
+	color: #3577D4;
+	// vertical-align: super;
+	font-size: 75%;
+	display: inline-block;
+	margin-left: 2px;
+	margin-right: 3px;
+	text-decoration: none;
+}
+
+@keyframes fadeinphoto {
+	0% {
+		opacity: 0;
+		transform: translateY(0);
+	}
+	90% {
+		opacity: 1;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+}
+
+@media only screen and (min-width: 64.063em) {
+	#principal_message p {
+		/* font-size: 2em !important; */
+	}
+}
+
+@media screen and (max-width: 640px) {
+	div#sta.image {
+		height: 62px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin: 15px 0 0 0;
+	}
+
+	div#sign {
+		display: none;
+	}
+
+	div#principal_container {
+		height: 385px;
+	}
+
+	img.polarBear {
+		width: 180px;
+		position: absolute;
+		bottom: -50px;
+		right: -10px;
+	}
+
+	.container_left {
+		text-align: center;
+		width: 100% !important;
+	}
+
+	.container_left h2 {
+		color: #fff;
+		letter-spacing: 3px;
+	}
+}

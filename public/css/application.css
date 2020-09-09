@@ -1,0 +1,5312 @@
+/* @override
+	http://staging.save.lat.webfactional.com/en/assets/css/application.css */
+
+/* line 33, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/* line 40, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/* line 48, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/* line 55, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+[hidden] {
+    display: none;
+}
+
+/* line 69, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* line 82, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* line 88, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+body {
+    margin: 0;
+}
+
+/* line 103, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+a:focus {
+    outline: thin dotted;
+}
+
+/* line 109, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* line 122, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* line 127, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+/* line 132, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+/* line 137, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+/* line 142, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+/* line 147, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h6 {
+    font-size: 0.67em;
+    margin: 2.33em 0;
+}
+
+/* line 153, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/* line 159, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+b,
+strong {
+    font-weight: bold;
+}
+
+/* line 163, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+blockquote {
+    margin: 1em 40px;
+}
+
+/* line 168, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+dfn {
+    font-style: italic;
+}
+
+/* line 174, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+/* line 181, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/* line 188, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+p,
+pre {
+    margin: 1em 0;
+}
+
+/* line 196, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
+}
+
+/* line 203, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* line 210, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+q {
+    quotes: none;
+}
+
+/* line 216, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/* line 222, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+small {
+    font-size: 80%;
+}
+
+/* line 228, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+/* line 235, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+sup {
+    top: -0.5em;
+}
+
+/* line 239, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+sub {
+    bottom: -0.25em;
+}
+
+/* line 253, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+    margin: 1em 0;
+}
+
+/* line 257, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+dd {
+    margin: 0 0 0 40px;
+}
+
+/* line 264, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+menu,
+ol,
+ul {
+    padding: 0 0 0 40px;
+}
+
+/* line 270, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+/* line 283, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+/* line 289, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* line 300, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+figure {
+    margin: 0;
+}
+
+/* line 311, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+form {
+    margin: 0;
+}
+
+/* line 316, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 325, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+legend {
+    border: 0;
+    padding: 0;
+    white-space: normal;
+    *margin-left: -7px;
+}
+
+/* line 339, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+}
+
+/* line 349, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button,
+input {
+    line-height: normal;
+}
+
+/* line 358, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button,
+select {
+    text-transform: none;
+}
+
+.form select {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+/* line 372, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    *overflow: visible;
+}
+
+/* line 380, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+/* line 389, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    *height: 13px;
+    *width: 13px;
+}
+
+/* line 399, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* line 409, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/* line 415, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* line 422, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+/* line 434, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* line 61, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+    font-size: 100%;
+}
+
+/* line 64, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+
+.ui-tooltip {
+    width: 100% !important;
+    max-width: 200px !important;
+    /*background: rgba(54, 119, 212, 0.9)!important;*/
+    background: white !important;
+    border: white !important;
+    z-index: 100001 !important;
+    font-size: 12px !important;
+    font-family: Helvetica, Arial, sans-serif !important;
+    color: rgba(54, 119, 212, 0.9) !important;
+}
+
+@media screen and (max-width: 770px) {
+    .ui-tooltip {
+        width: 100% !important;
+        max-width: 254px !important;
+        /*background: rgba(54, 119, 212, 0.9)!important;*/
+        /*color: white!important;*/
+    }
+}
+
+.select2-drop {
+    z-index: 10001 !important;
+}
+
+/*Colors variables */
+/* line 32, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/application.css.sass */
+.savetheartic,
+#principal_message.principal_message p,
+#principal_form.form form#center_sign-form fieldset p.submit input,
+.odd .image .mobile_title h2,
+.even .image .mobile_title h2,
+.form_container .image .mobile_title h2,
+.odd .title h2,
+.even .title h2,
+.form_container .title h2,
+.odd .signnow #sign.submit,
+.even .signnow #sign.submit,
+.form_container .signnow #sign.submit,
+.form_container .form form#sign-form fieldset p.submit input,
+.menu .menu_container .container_right .submit,
+#thankyou.container .share_donate .title h2,
+#thankyou.container .share_donate .social .donate .submit a p span {
+    font-family: SavetheArtic, "Helvetica neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 34, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/application.css.sass */
+.helveticaneueltstd,
+.select2-container,
+.select2-results,
+.odd .paragraphs p,
+.even .paragraphs p,
+.form_container .paragraphs p,
+.odd .paragraphs p.subtitle,
+.even .paragraphs p.subtitle,
+/* .form_container .paragraphs p.subtitle {
+    font-family: HelveticaNeueLtStd, "Helvetica neue", Helvetica, Arial, sans-serif;
+} */
+/* line 4, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.container {
+    overflow: hidden;
+}
+
+/* line 24, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+body[dir=rtl] .form_container .form form#sign-form fieldset p input[required=required],
+body[dir=rtl] .form_container .form form#sign-form fieldset p input[required],
+body[dir=rtl] #principal_form.form form#center_sign-form fieldset p input[required=required],
+body[dir=rtl] #principal_form.form form#center_sign-form fieldset p input[required] {
+    background-position: 2% center !important;
+}
+
+/* line 26, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+body[dir=rtl] .form_container .form form#sign-form fieldset p input.error,
+body[dir=rtl] #principal_form.form form#center_sign-form fieldset p input.error {
+    background-position: 2% center !important;
+}
+
+/* line 28, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+body[dir=rtl] .form_container .form form#sign-form fieldset p input.valid,
+body[dir=rtl] #principal_form.form form#center_sign-form fieldset p input.valid {
+    background-position: 2% center !important;
+}
+
+/* line 31, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+body[dir=rtl] .form_container .form form#sign-form fieldset p.normal input,
+body[dir=rtl] #principal_form.form form#center_sign-form fieldset p.normal input {
+    padding-right: 8px;
+    padding-left: 40px;
+}
+
+/* line 35, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+body[dir=rtl] .form_container .form form#sign-form fieldset p.date input,
+body[dir=rtl] #principal_form.form form#center_sign-form fieldset p.date input {
+    float: left !important;
+}
+
+/* line 38, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+body[dir=rtl] .form_container .form form#sign-form fieldset p.date label,
+body[dir=rtl] #principal_form.form form#center_sign-form fieldset p.date label {
+    float: right;
+}
+
+/* line 47, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+body[dir=rtl] .form_container .form form#sign-form fieldset p.checkbox span,
+body[dir=rtl] #principal_form.form form#center_sign-form fieldset p.checkbox span {
+    float: right;
+    padding-right: 5px;
+    padding-left: 0;
+}
+
+body[dir=rtl] .form_container .form form#sign-form fieldset p.checkbox input,
+body[dir=rtl] #principal_form.form form#center_sign-form fieldset p.checkbox input {
+    float: right;
+}
+
+/* line 50, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+body[dir=rtl] #principal_form.form .closed_x {
+    left: 0;
+    right: auto;
+}
+
+body[dir=rtl] .form_container .text .social .share,
+body[dir=rtl] .form_container .text .social .share p,
+body[dir=rtl] .form_container .text .social .share .img {
+    float: right;
+}
+
+body[dir=rtl] .form_container .text .social .share p,
+body[dir=rtl] .form_container .text .social .share span {
+    padding-right: 0px;
+    padding-left: 4px;
+}
+
+
+body[dir=rtl] .menu {
+    margin-right: 0;
+}
+
+body[dir=rtl] .icone {
+    text-align: left;
+}
+
+body[dir=rtl] .paragraphs {
+    text-align: right;
+}
+
+body[dir=rtl] .menu {
+    margin-right: 0;
+}
+
+/*Russian*/
+/*Classes with helveticaneueltstd font*/
+body[lang=ru] .share p,
+body[lang=ru] .share span,
+body[lang=ru] .select2-search input,
+body[lang=ru] .lenguages select#pages_lenguage,
+body[lang=ru] .form_container .footer p,
+body[lang=ru] #thankyou.container .backdrop .message h2,
+body[lang=ru] #thankyou.container .share_donate .social .share .fb p,
+body[lang=ru] #thankyou.container .share_donate .social .share .tw p,
+body[lang=ru] #thankyou.container .share_donate .social .donate .submit a p,
+body[lang=ru] .odd .title h2,
+body[lang=ru] .even .title h2,
+body[lang=ru] .form_container .title h2,
+body[lang=ru] .menu .menu_container .container_left ul.submenu.elements li a,
+body[lang=ru] .select2-container,
+body[lang=ru] .select2-results,
+body[lang=ru] .odd .paragraphs p,
+body[lang=ru] .even .paragraphs p,
+body[lang=ru] .form_container .paragraphs p,
+body[lang=ru] .odd .paragraphs p.subtitle,
+body[lang=ru] .even .paragraphs p.subtitle,
+body[lang=ru] .form_container .paragraphs p.subtitle {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Classes with savethearctic font*/
+body[lang=ru] #thankyou.container .backdrop .message h2 span,
+body[lang=ru] .odd .title h2 span,
+body[lang=ru] .even .title h2 span,
+body[lang=ru] .form_container .title h2 span,
+body[lang=ru] .menu .menu_container .container_left ul.submenu.elements li a span,
+body[lang=ru] #principal_message.principal_message p,
+body[lang=ru] #principal_form.form form#center_sign-form fieldset p.submit input,
+body[lang=ru] .odd .image .mobile_title h2,
+body[lang=ru] .even .image .mobile_title h2,
+body[lang=ru] .form_container .image .mobile_title h2,
+body[lang=ru] .odd .title h2,
+body[lang=ru] .even .title h2,
+body[lang=ru] .form_container .title h2,
+body[lang=ru] .odd .signnow #sign.submit,
+body[lang=ru] .even .signnow #sign.submit,
+body[lang=ru] .form_container .signnow #sign.submit,
+body[lang=ru] .form_container .form form#sign-form fieldset p.submit input,
+body[lang=ru] .menu .menu_container .container_right .submit,
+body[lang=ru] #thankyou.container .share_donate .title h2,
+body[lang=ru] #thankyou.container .share_donate .social .donate .submit a p span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+body[lang=ru] .odd .signnow #sign.submit,
+body[lang=ru] .even .signnow #sign.submit,
+body[lang=ru] .form_container .signnow #sign.submit {
+    line-height: 2.5em;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.cookie_container,
+#thankyou.container .cookie_container {
+    position: relative;
+    float: left;
+    clear: both;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+    padding: 8px 0.75em 8px 1em;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: #f7ecbd;
+    color: #444;
+}
+
+.cookie_container .cookie_disclaimer p,
+#thankyou.container .cookie_container .cookie_disclaimer p {
+    margin: 0 auto 8px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.75em;
+    line-height: 1.7em;
+    margin-bottom: 0;
+}
+
+.cookie_container .cookie_disclaimer p button,
+#thankyou.container .cookie_container .cookie_disclaimer p button {
+    border: none;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #222;
+    border-bottom: 1px solid #333;
+    background: none;
+    padding: 0;
+    width: auto;
+}
+
+/* line 15, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+
+.icone {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 100;
+    width: 123px;
+}
+
+/* line 21, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.icone img {
+    width: 70%;
+    height: auto;
+}
+
+.share p {
+    float: left;
+    margin: 0;
+    padding-top: 5px;
+    padding-right: 4px;
+    font-family: HelveticaNeueLtStd, "Helvetica neue", Helvetica, Arial, sans-serif;
+    font-size: 0.75em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1em;
+    color: white;
+}
+
+.share p.network {
+    /*padding-top: 12px;*/
+    padding-left: 3px;
+}
+
+/* line 93, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.share a {
+    text-decoration: none;
+}
+
+.share .img {
+    float: left;
+    padding-left: 2px;
+}
+
+.share span {
+    padding-right: 4px;
+    font-family: HelveticaNeueLtStd, "Helvetica neue", Helvetica, Arial, sans-serif;
+    font-size: 0.75em;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    vertical-align: top;
+}
+
+p.error {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+/* line 26, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.button .greenbutton {
+    border: none;
+    background: #8eba4a;
+    background: -moz-linear-gradient(top, #8eba4a 0%, #79a33f 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8eba4a), color-stop(100%, #79a33f));
+    background: -webkit-linear-gradient(top, #8eba4a 0%, #79a33f 100%);
+    background: -o-linear-gradient(top, #8eba4a 0%, #79a33f 100%);
+    background: -ms-linear-gradient(top, #8eba4a 0%, #79a33f 100%);
+    background: linear-gradient(to bottom, #8eba4a 0%, #79a33f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8eba4a', endColorstr='#79a33f', GradientType=0);
+}
+
+.button .greenbutton:hover {
+
+    background: -moz-linear-gradient(top, #8eba4a 0%, #8eba4a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8eba4a), color-stop(100%, #8eba4a));
+    background: -webkit-linear-gradient(top, #8eba4a 0%, #8eba4a 100%);
+    background: -o-linear-gradient(top, #8eba4a 0%, #8eba4a 100%);
+    background: -ms-linear-gradient(top, #8eba4a 0%, #8eba4a 100%);
+    background: linear-gradient(to bottom, #8eba4a 0%, #8eba4a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8eba4a', endColorstr='#8eba4a', GradientType=0);
+}
+
+.button .greenbutton:active {
+    margin-top: 4px !important;
+    border-bottom-width: 0 !important;
+}
+
+
+
+/* line 36, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#player.player {
+    background-color: none !important;
+}
+
+/* line 39, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_container.container {
+    position: relative;
+    border-top: none;
+    min-height: 800px;
+    z-index: 0;
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(5%, #064188), color-stop(100%, #011952));
+    background-image: -webkit-radial-gradient(#064188 5%, #011952 100%);
+    background-image: -moz-radial-gradient(#064188 5%, #011952 100%);
+    background-image: -o-radial-gradient(#064188 5%, #011952 100%);
+    background-image: radial-gradient(#064188 5%, #011952 100%);
+}
+
+/* line 45, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+
+body.mobile #principal_container.container {
+    min-height: 500px;
+}
+
+#principal_container.container #canvas {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* line 51, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_container.container svg,
+#thankyou.container svg {
+    display: none;
+}
+
+/* line 55, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_container.container .background_image,
+#thankyou.container .background_image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* line 65, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_container.container .background_video,
+#thankyou.container .background_video {
+    height: 100%;
+    width: 100%;
+}
+
+/* line 69, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_container.container .background_video iframe,
+#thankyou.container .background_video iframe {
+    display: none;
+}
+
+/* line 72, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_container.container .background_video .click_block,
+#thankyou.container .background_video .click_block {
+    display: none;
+}
+
+/* line 75, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_container.container .background_video .background_image,
+#thankyou.container .background_video .background_image {
+    display: block;
+}
+
+/* line 81, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_container.container .header,
+#thankyou.container .header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* line 88, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_container.container .header .container_left,
+#thankyou.container .header .container_left {
+    width: 0%;
+    float: left;
+    margin-right: 2.94118%;
+    display: inline;
+}
+
+/* line 91, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_container.container .header .container_right,
+#thankyou.container .header .container_right {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -0.625em;
+    display: inline;
+    margin-top: 16px;
+}
+
+/* line 95, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_container.container .header .container_right .lenguages,
+#thankyou.container .header .container_right .lenguages {
+    display: inline;
+    float: right;
+    padding-right: 0.625em;
+}
+
+#principal_container.container .header .container_right .lenguages select#pages_lenguage,
+#thankyou.container .header .container_right .lenguages select#pages_lenguage {
+    height: 28px;
+    z-index: 10001;
+    border: none;
+    background: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: HelveticaNeueLtStd, "Helvetica neue", Helvetica, Arial, sans-serif !important;
+    font-size: 0.75em !important;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+/* line 100, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_container.container .header .container_right .share,
+#thankyou.container .header .container_right .share {
+    display: block;
+    display: inline;
+    float: right;
+    padding-right: 0.625em;
+}
+
+/* line 106, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_container.container .header .container_right .share p,
+#thankyou.container .header .container_right .share p {
+    display: none;
+}
+
+#principal_container.container .header .container_right #sound {
+    display: none;
+}
+
+/* line 124, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+svg#bear_svg,
+svg#bear_back_svg,
+svg#ship {
+    display: none;
+}
+
+/*CSS select2 plugin */
+/* line 129, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.select2-container,
+.select2-results {
+    font-size: 0.75em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1em;
+}
+
+/* line 136, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.select2-container .select2-choice,
+.select2-results .select2-choice {
+    border: none !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-radius: 0 !important;
+    -webkit-background-clip: border-box !important;
+    -moz-background-clip: border-box !important;
+    background-clip: border-box !important;
+}
+
+/* line 141, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.select2-container .select2-arrow,
+.select2-results .select2-arrow {
+    background: none !important;
+    border-left: none !important;
+}
+
+/* line 145, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.select2-drop {
+    border: none !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+/* line 150, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.select2-search input {
+    font-family: HelveticaNeueLtStd, "Helvetica neue", Helvetica, Arial, sans-serif !important;
+    font-size: 0.75em !important;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1em;
+}
+
+/* line 156, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.select2-search input:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+#callofvalue.callofvalue {
+    position: absolute;
+    width: 100%;
+    top: 19%;
+    margin: auto;
+}
+
+/* line 162, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_message.principal_message {
+    /*position: absolute;
+    width: 90%;
+    max-width: 360px;
+    top:16%;
+    margin: auto;
+    margin-top: -180px;
+    left: 0;
+    right: 0;*/
+    position: relative;
+    width: 90%;
+    max-width: 360px;
+    margin: 0 auto 17px;
+}
+
+/* line 170, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_message.principal_message p {
+    margin: 0 auto;
+    font-size: 1.125em;
+    font-weight: 700;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    font-style: normal;
+    /*color: #011852;*/
+    text-align: center;
+    /*text-shadow: 0 0 15px rgba(255, 255, 255, 0.5); */
+}
+
+body.mobile #principal_message.principal_message p {
+    color: white !important;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.5) !important;
+}
+
+/* line 181, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_message.principal_message p span {
+    display: block;
+}
+
+/* line 184, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+body.mobile #principal_form.form {
+
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 23px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+}
+
+#principal_form.form {
+    width: 90%;
+    max-width: 300px;
+    margin: auto;
+    padding: 23px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 10000;
+}
+
+/* line 199, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form .closed_x {
+    display: none;
+    position: absolute;
+    top: -21px;
+    right: 0;
+    color: white;
+}
+
+/* line 205, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form .closed_x a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: pointer;
+}
+
+/* line 6, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+#principal_form.form .closed_x a:active,
+#principal_form.form .closed_x a:focus {
+    outline: none;
+}
+
+/* line 207, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form .closed_x a p {
+    display: inline-block;
+    margin: 0;
+    font-size: 0.75em;
+    vertical-align: bottom;
+}
+
+/* line 212, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form .progress_bar {
+    font-size: 90%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* line 217, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form .progress_bar .sign_counter,
+#principal_form.form .progress_bar #target {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 150%;
+}
+
+#principal_form.form .progress_bar .sign_counter {
+    color: #85b431;
+}
+
+/* line 219, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form .progress_bar .sign_counter span#number {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* line 223, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form .progress_bar .container_bar {
+    height: 14px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+/* line 228, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form .progress_bar .container_bar .content {
+    height: 14px;
+    width: 0;
+    background: #85b431;
+}
+
+#principal_form.form p.error {
+    margin: 2px auto 7px;
+    font-size: 0.75em;
+    color: #85b431;
+
+}
+
+/* line 237, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* line 242, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset .elem {
+    display: none;
+    clear: both;
+}
+
+/* line 245, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset .elem #center_email {
+    display: block !important;
+}
+
+/* line 253, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p {
+    margin: 0 auto;
+}
+
+#principal_form.form form#center_sign-form fieldset p label.name {
+    display: none;
+}
+
+body.mobile #principal_form.form form#center_sign-form fieldset p label.name {
+    display: block !important;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    color: black;
+}
+
+#principal_form.form form#center_sign-form fieldset p label.title {
+    display: none;
+}
+
+body.mobile #principal_form.form form#center_sign-form fieldset p label.title {
+    display: block !important;
+    padding-top: 4px;
+    /*padding-bottom: 4px;*/
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.75em;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: gray;
+}
+
+body.mobile #principal_form.form form#center_sign-form fieldset p.date label.title {
+    width: 70%;
+    float: right;
+    text-align: left;
+    clear: both;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+body.mobile #principal_form.form form#center_sign-form fieldset p.phone label.title {
+    display: inline-block !important;
+    /*display: none;*/
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+/* line 256, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p input[required=required],
+#principal_form.form form#center_sign-form fieldset p input[required] {
+    /* background: url("../images/form_required.svg") no-repeat 98% center !important; */
+}
+
+/* line 258, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p input.error {
+    /* background: url("../images/form_error.svg") no-repeat 98% center !important; */
+    border: 1px solid #eb2b37 !important;
+}
+
+/* line 260, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p select.error {
+    border: 1px solid #eb2b37 !important;
+}
+
+#principal_form.form form#center_sign-form fieldset p select.salutation_de[required=required],
+#principal_form.form form#center_sign-form fieldset p select.salutation_de[required],
+.form_container .form form#sign-form fieldset p select.salutation_de[required=required],
+.form_container .form form#sign-form fieldset p select.salutation_de[required] {
+    /* background: url("../images/form_required.svg") no-repeat 98% center !important; */
+}
+
+#principal_form.form form#center_sign-form fieldset p select.salutation_de.error,
+.form_container .form form#sign-form fieldset p select.salutation_de.error {
+    /* background: url("../images/form_error.svg") no-repeat 98% center !important; */
+    border: 1px solid #eb2b37 !important;
+}
+
+#principal_form.form form#center_sign-form fieldset p select.salutation_de.valid,
+.form_container .form form#sign-form fieldset p select.salutation_de.valid {
+    /* background: url("../images/form_checked.svg") no-repeat 98% center !important; */
+}
+
+#principal_form.form form#center_sign-form fieldset p input.valid {
+    /* background: url("../images/form_checked.svg") no-repeat 98% center !important; */
+}
+
+#principal_form.form form#center_sign-form fieldset #center_countrycode.valid {
+    background: none !important;
+}
+
+#sign-form.form form#center_sign-form fieldset #center_countrycode.valid {
+    background: none !important;
+}
+
+/* line 263, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p label.error,
+#principal_form.form form#center_sign-form fieldset p.error,
+#principal_form.form form#center_sign-form fieldset p span.error {
+    display: none !important;
+}
+
+/* line 268, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p.normal,
+#principal_form.form form#center_sign-form fieldset p.date,
+#principal_form.form form#center_sign-form fieldset p.phone,
+#principal_form.form form#center_sign-form fieldset p.checkbox {
+    color: black;
+}
+
+/* line 269, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p.normal input:-ms-clear,
+#principal_form.form form#center_sign-form fieldset p.normal input:-ms-reveal {
+    display: none;
+}
+
+#principal_form.form form#center_sign-form fieldset p.normal input::-ms-clear,
+#principal_form.form form#center_sign-form fieldset p.normal input::-ms-reveal {
+    display: none;
+}
+
+#principal_form.form form#center_sign-form fieldset p.normal input,
+#principal_form.form form#center_sign-form fieldset p.normal select,
+#principal_form.form form#center_sign-form fieldset p.date input,
+#principal_form.form form#center_sign-form fieldset p.date select,
+#principal_form.form form#center_sign-form fieldset p.phone input,
+#principal_form.form form#center_sign-form fieldset p.phone select,
+#principal_form.form form#center_sign-form fieldset p.checkbox input,
+#principal_form.form form#center_sign-form fieldset p.checkbox select {
+    color: black;
+    border-color: black;
+}
+
+#principal_form.form form#center_sign-form fieldset p.normal,
+#principal_form.form form#center_sign-form fieldset p.date,
+#principal_form.form form#center_sign-form fieldset p.phone {
+    margin: 2px auto 6px;
+}
+
+/* line 271, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p.normal input,
+#principal_form.form form#center_sign-form fieldset p.normal select,
+#principal_form.form form#center_sign-form fieldset p.date input,
+#principal_form.form form#center_sign-form fieldset p.date select,
+#principal_form.form form#center_sign-form fieldset p.phone input,
+#principal_form.form form#center_sign-form fieldset p.phone select {
+    height: 42px;
+    padding-left: 8px;
+    padding-right: 40px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: white !important;
+}
+
+select {
+    height: 42px;
+    line-height: 30px;
+    margin: 0;
+    padding: 3px;
+    background: transparent none no-repeat;
+    cursor: pointer;
+}
+
+#principal_form.form form#center_sign-form fieldset p select#center_region.required {
+    /* background: url("../images/form_required.svg") no-repeat 98% center !important; */
+}
+
+#principal_form.form form#center_sign-form fieldset p select#center_region.error {
+    /* background: url("../images/form_error.svg") no-repeat 98% center !important; */
+    border: 1px solid #eb2b37 !important;
+}
+
+#principal_form.form form#center_sign-form fieldset p select#center_region.valid {
+    /* background: url("../images/form_checked.svg") no-repeat 98% center !important; */
+}
+
+@media screen and (min-width:0) {
+
+    /* for relatively modern browsers including IE 8+ */
+    select {
+        border-radius: 4px;
+        /*background-image: url("data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAaCAYAAACkVDyJAAAAlElEQVRIx+2VwQ3AIAhFwTiFi7KC7uYGHo1z0Et7MWkjaEiaQOJBDzy/wgdqrXwHWKyAiGAZDnSgHBhC+IfCUgqbKXxgGqhY4QyRQkUK35KLoK01iZd+xZKXRuEfbvdQPPGkAABEhMeLhohE5yfaAufk93791r13zQDmnLNqcOMYg1NKmoJgTRHtmDeaWZvPQweaAi8PXSmZJU3QRAAAAABJRU5ErkJggg==");*/
+        background-position: -50px -50px;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    /* for Webkit */
+    select {
+        -webkit-appearance: none;
+        background-position: right center;
+        padding: 3px 32px 3px 5px;
+    }
+}
+
+@-moz-document url-prefix() {
+
+    /* for Firefox */
+    select {
+        display: flex;
+        border: 0;
+        box-shadow: none;
+        padding: 12px 16px 0px 0px;
+        /*background-position: 90% center!important;*/
+        background-position: right center;
+        padding-right: 16px;
+
+        /*remove the arrow*/
+        -moz-appearance: none;
+        text-indent: 0.01px;
+        text-overflow: '';
+
+        padding-left: 5px !important;
+        padding-bottom: 6px;
+
+        /* this shifts the text down a few pixels and removes the focus-ring */
+        text-shadow: none;
+        /*text-indent: -4px;*/
+    }
+
+    select * {
+        color: black;
+        text-shadow: none;
+    }
+
+    .form_container .form form#sign-form fieldset p.normal select {
+        background: #0f3e7f !important;
+        border: 2px solid #FFF !important;
+        color: #FFF !important;
+    }
+
+    .form_container .form form#sign-form fieldset p select.valid {
+        background: #0f3e7f !important;
+    }
+
+    .form_container .form form#sign-form fieldset p select * {
+        background: #FFF !important;
+    }
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+
+    /* for IE10+ */
+    select::-ms-expand {
+        display: none;
+    }
+
+    select {
+        background-position: right center;
+        padding-right: 30px;
+    }
+}
+
+/* line 2, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+#principal_form.form form#center_sign-form fieldset p.normal input::-webkit-input-placeholder,
+#principal_form.form form#center_sign-form fieldset p.normal select::-webkit-input-placeholder,
+#principal_form.form form#center_sign-form fieldset p.date input::-webkit-input-placeholder,
+#principal_form.form form#center_sign-form fieldset p.date select::-webkit-input-placeholder,
+#principal_form.form form#center_sign-form fieldset p.phone input::-webkit-input-placeholder,
+#principal_form.form form#center_sign-form fieldset p.phone select::-webkit-input-placeholder {
+    padding-left: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    color: #999999;
+}
+
+/* line 4, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+#principal_form.form form#center_sign-form fieldset p.normal input:-moz-placeholder,
+#principal_form.form form#center_sign-form fieldset p.normal select:-moz-placeholder,
+#principal_form.form form#center_sign-form fieldset p.date input:-moz-placeholder,
+#principal_form.form form#center_sign-form fieldset p.date select:-moz-placeholder,
+#principal_form.form form#center_sign-form fieldset p.phone input:-moz-placeholder,
+#principal_form.form form#center_sign-form fieldset p.phone select:-moz-placeholder {
+    padding-left: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    color: #cccccc;
+    opacity: 1;
+}
+
+/* line 6, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+#principal_form.form form#center_sign-form fieldset p.normal input::-moz-placeholder,
+#principal_form.form form#center_sign-form fieldset p.normal select::-moz-placeholder,
+#principal_form.form form#center_sign-form fieldset p.date input::-moz-placeholder,
+#principal_form.form form#center_sign-form fieldset p.date select::-moz-placeholder,
+#principal_form.form form#center_sign-form fieldset p.phone input::-moz-placeholder,
+#principal_form.form form#center_sign-form fieldset p.phone select::-moz-placeholder {
+    padding-left: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    color: #999999;
+    opacity: 1;
+}
+
+/* line 8, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+#principal_form.form form#center_sign-form fieldset p.normal input:-ms-input-placeholder,
+#principal_form.form form#center_sign-form fieldset p.normal select:-ms-input-placeholder,
+#principal_form.form form#center_sign-form fieldset p.date input:-ms-input-placeholder,
+#principal_form.form form#center_sign-form fieldset p.date select:-ms-input-placeholder,
+#principal_form.form form#center_sign-form fieldset p.phone input:-ms-input-placeholder,
+#principal_form.form form#center_sign-form fieldset p.phone select:-ms-input-placeholder {
+    padding-left: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    color: #999999;
+}
+
+/* line 286, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p.normal input:focus,
+#principal_form.form form#center_sign-form fieldset p.date input:focus,
+#principal_form.form form#center_sign-form fieldset p.phone input:focus {
+    -webkit-box-shadow: 0 0 6px #7ea324;
+    -moz-box-shadow: 0 0 6px #7ea324;
+    box-shadow: 0 0 6px #7ea324;
+    outline: none;
+}
+
+/* line 290, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p.normal select,
+#principal_form.form form#center_sign-form fieldset p.date select,
+#principal_form.form form#center_sign-form fieldset p.phone select {
+    padding-left: 9px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: .9em !important;
+    font-weight: 400;
+    -webkit-appearance: none;
+    border-radius: 0;
+    color: black;
+}
+
+/* line 299, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p.normal input,
+#principal_form.form form#center_sign-form fieldset p.normal select {
+    width: 100%;
+}
+
+/* line 302, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p.date {
+    height: 42px;
+}
+
+/* line 305, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p.date label {
+    width: 19%;
+    float: left;
+    padding-top: 3%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    line-height: 1em;
+    color: black;
+}
+
+/* line 318, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p.date input {
+    /* width: 70% !important; */
+    float: right !important;
+    clear: none !important;
+    background-position: 97% 50% !important;
+}
+
+/* line 324, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p.phone {
+    clear: none;
+}
+
+/* line 327, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p.phone #center_countrycode {
+    width: 22%;
+    padding-left: 4px;
+    padding-right: 4px;
+    /* background: url('../images/plus.svg') no-repeat -4px center !important; */
+    float: left;
+}
+
+/* line 331, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p.phone #center_phone {
+    width: 76%;
+    float: right;
+}
+
+/* line 336, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form form#center_sign-form fieldset p.submit input {
+    height: 45px;
+    width: 100%;
+    margin: 14px auto 0;
+    border: none;
+    clear: both;
+    -webkit-box-shadow: 0px 3px 0px #598628;
+    -moz-box-shadow: 0px 3px 0px #598628;
+    box-shadow: 0px 3px 0px #598628;
+    text-shadow: 0px 2px 0px #598628;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    border-radius: 9px;
+    font-size: 1em;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    letter-spacing: 0.05em;
+}
+
+#principal_form.form form#center_sign-form fieldset p.checkbox {
+    margin: 18px auto 4px;
+    padding-left: 3px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+#principal_form.form form#center_sign-form fieldset p.checkbox input {
+    display: inline-block;
+    float: left;
+    height: 20px;
+}
+
+#principal_form.form form#center_sign-form fieldset p.checkbox span {
+    display: inline-block;
+    float: none;
+    font-size: 12px;
+    width: 87%;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+/* line 358, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#principal_form.form .or_text p {
+    margin: 4px auto;
+    padding: 0;
+    font-size: 0.8125em;
+    color: #033e84;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* line 368, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+
+.facebook_button input,
+#form_container.form_container .form form#sign-form.form .social_authentication p input {
+    height: 42px !important;
+    width: 100%;
+    padding: 0;
+    background-color: #3c5a99 !important;
+    border: none !important;
+    border-bottom: 2px solid #2c4270 !important;
+    border-radius: 6px !important;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+}
+
+.facebook_button a {
+    display: block;
+    height: 42px;
+    width: 100%;
+    background-color: #3c5a99;
+    border-radius: 6px;
+    border-bottom: 2px solid #2c4270;
+    color: white;
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+/* line 18, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#principal_form.form .facebook_button a:visited {
+    color: white;
+}
+
+/* line 21, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#principal_form.form .facebook_button a:focus {
+    color: white;
+}
+
+/* line 24, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#principal_form.form .facebook_button a:hover {
+    color: white;
+}
+
+/* line 27, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#principal_form.form .facebook_button a:active {
+    color: white;
+}
+
+/* line 6, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+#principal_form.form .facebook_button a:active,
+#principal_form.form .facebook_button a:focus {
+    outline: none;
+}
+
+/* line 383, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.container {
+    width: 100%;
+    float: left;
+    margin-right: 2.94118%;
+    display: inline;
+}
+
+/* line 387, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd,
+.even,
+.form_container {
+    position: relative;
+    background: white;
+}
+
+/* line 391, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd .image,
+.even .image,
+.form_container .image {
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+}
+
+/* line 398, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd .image img,
+.even .image img,
+.form_container .image img {
+    height: auto;
+    width: 100%;
+}
+
+/* line 404, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd .image .mobile_title,
+.even .image .mobile_title,
+.form_container .image .mobile_title {
+    position: absolute;
+    bottom: 0;
+    /*height: 78px;*/
+    width: 100%;
+    padding: 2%;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    box-sizing: border-box;
+    /* background-image: url("../images/title_gradient.png"); */
+    background-repeat: repeat-x;
+}
+
+/* line 417, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd .image .mobile_title h2,
+.even .image .mobile_title h2,
+.form_container .image .mobile_title h2 {
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 8px #000;
+}
+
+/* line 426, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd .image .mobile_title h2 span,
+.even .image .mobile_title h2 span,
+.form_container .image .mobile_title h2 span {
+    display: block;
+}
+
+/* line 429, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd .title,
+.even .title,
+.form_container .title {
+    display: none;
+}
+
+/* line 433, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd .title h2,
+.even .title h2,
+.form_container .title h2 {
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    line-height: 1.4em;
+}
+
+/* line 442, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd .title h2 span,
+.even .title h2 span,
+.form_container .title h2 span {
+    display: block;
+    text-transform: uppercase;
+}
+
+/* line 447, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd .paragraphs,
+.even .paragraphs,
+.form_container .paragraphs {
+    position: relative;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 0.75em;
+}
+
+/* line 453, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd .paragraphs p,
+.even .paragraphs p,
+.form_container .paragraphs p {
+    margin: 10px auto;
+    font-size: 0.98em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+}
+
+/* line 461, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd .paragraphs p.subtitle,
+.even .paragraphs p.subtitle,
+.form_container .paragraphs p.subtitle {
+    font-size: 1.125em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.25em;
+}
+
+/* line 468, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd .signnow,
+.even .signnow,
+.form_container .signnow {
+    margin: 20px auto 20px;
+}
+
+/* line 471, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd .signnow #sign.submit,
+.even .signnow #sign.submit,
+.form_container .signnow #sign.submit {
+    height: 44px;
+    width: 80%;
+    max-width: 290px;
+    margin: 0 auto;
+    text-shadow: 0px 2px 0px #598628;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    border-radius: 9px;
+    border-bottom: 4px solid #598628;
+    font-size: 1.125em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 2em;
+    color: white;
+    letter-spacing: 0.05em;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* line 500, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.odd .signnow #sign.submit a,
+.even .signnow #sign.submit a,
+.form_container .signnow #sign.submit a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+}
+
+/* line 6, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+.odd .signnow #sign.submit a:active,
+.odd .signnow #sign.submit a:focus,
+.even .signnow #sign.submit a:active,
+.even .signnow #sign.submit a:focus,
+.form_container .signnow #sign.submit a:active,
+.form_container .signnow #sign.submit a:focus {
+    outline: none;
+}
+
+/* line 506, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container {
+    width: 100%;
+    float: left;
+    margin-right: 2.94118%;
+    display: inline;
+    padding-bottom: 80px;
+    position: relative;
+    background: #0f3e7f;
+    z-index: 1000;
+}
+
+/* line 512, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .text {
+    color: white;
+}
+
+/* line 515, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .text .title {
+    display: block;
+    margin: 20px auto 24px;
+    padding-left: 1em;
+    padding-right: 0.75em;
+}
+
+.form_container .text .social {
+    width: 100%;
+    position: relative;
+    clear: left;
+}
+
+/* line 637, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .text .social .share {
+    height: 26px;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 35px;
+}
+
+.form_container .signnow {
+    clear: both;
+}
+
+.form_container .form {
+    clear: both;
+}
+
+/* line 539, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form #down_progress_bar.progress_bar,
+.form_container .form p.error,
+.form_container .form form#sign-form,
+.form_container .form .social_authentication {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* line 543, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form #down_progress_bar.progress_bar {
+    margin: 22px auto 9px;
+    font-size: 0.625em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.form_container .form p.error {
+    margin: 0 auto 10px;
+    font-size: 0.875em;
+    color: white;
+}
+
+/* line 549, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form #down_progress_bar.progress_bar .sign_counter,
+.form_container .form #down_progress_bar.progress_bar .target {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1.3em;
+}
+
+.form_container .form #down_progress_bar.progress_bar .sign_counter {
+    color: #85b431;
+}
+
+/* line 551, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form #down_progress_bar.progress_bar .sign_counter span#down_number {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* line 555, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form #down_progress_bar.progress_bar .container_bar {
+    height: 14px;
+    border: 1px solid white;
+    padding: 2px;
+}
+
+/* line 560, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form #down_progress_bar.progress_bar .container_bar .content {
+    height: 14px;
+    width: 0;
+    background: #85b431;
+}
+
+/* line 565, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form #down_progress_bar.progress_bar #down_target.target {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+/* line 573, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form {
+    margin-bottom: 16px;
+}
+
+.form_container .form form#sign-form fieldset {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* line 578, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p {
+    margin: 0 auto;
+}
+
+/* line 581, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p input[required=required],
+.form_container .form form#sign-form fieldset p input[required] {
+    /* background: url("../images/form_required.svg") no-repeat 98% center !important; */
+}
+
+/* line 583, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p input.error {
+    /* background: url("../images/form_error.svg") no-repeat 98% center !important; */
+}
+
+.form_container .form form#sign-form fieldset p select.error {
+    border: 2px solid #eb2b37 !important;
+}
+
+/* line 585, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p input.valid {
+    /* background: url("../images/form_checked.svg") no-repeat 98% center !important; */
+}
+
+/* line 588, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p label.error,
+.form_container .form form#sign-form fieldset p.error,
+.form_container .form form#sign-form fieldset p span.error {
+    display: none !important;
+}
+
+/* line 591, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p #countrycode {
+    background: none !important;
+}
+
+/* line 595, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p.normal input:-ms-clear,
+.form_container .form form#sign-form fieldset p.normal input:-ms-reveal {
+    display: none;
+}
+
+.form_container .form form#sign-form fieldset p.normal input::-ms-clear,
+.form_container .form form#sign-form fieldset p.normal input::-ms-reveal {
+    display: none;
+}
+
+.form_container .form form#sign-form fieldset p.normal input,
+.form_container .form form#sign-form fieldset p.normal select,
+.form_container .form form#sign-form fieldset p.date input,
+.form_container .form form#sign-form fieldset p.date select,
+.form_container .form form#sign-form fieldset p.phone input,
+.form_container .form form#sign-form fieldset p.phone select {
+    height: 42px;
+    margin: 2px auto 2px;
+    padding-left: 8px;
+    padding-right: 40px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: transparent;
+    color: white;
+}
+
+/* line 2, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+.form_container .form form#sign-form fieldset p.normal input::-webkit-input-placeholder,
+.form_container .form form#sign-form fieldset p.normal select::-webkit-input-placeholder,
+.form_container .form form#sign-form fieldset p.date input::-webkit-input-placeholder,
+.form_container .form form#sign-form fieldset p.date select::-webkit-input-placeholder,
+.form_container .form form#sign-form fieldset p.phone input::-webkit-input-placeholder,
+.form_container .form form#sign-form fieldset p.phone select::-webkit-input-placeholder {
+    padding-left: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    color: white;
+}
+
+/* line 4, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+.form_container .form form#sign-form fieldset p.normal input:-moz-placeholder,
+.form_container .form form#sign-form fieldset p.normal select:-moz-placeholder,
+.form_container .form form#sign-form fieldset p.date input:-moz-placeholder,
+.form_container .form form#sign-form fieldset p.date select:-moz-placeholder,
+.form_container .form form#sign-form fieldset p.phone input:-moz-placeholder,
+.form_container .form form#sign-form fieldset p.phone select:-moz-placeholder {
+    padding-left: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    color: white;
+}
+
+/* line 6, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+.form_container .form form#sign-form fieldset p.normal input::-moz-placeholder,
+.form_container .form form#sign-form fieldset p.normal select::-moz-placeholder,
+.form_container .form form#sign-form fieldset p.date input::-moz-placeholder,
+.form_container .form form#sign-form fieldset p.date select::-moz-placeholder,
+.form_container .form form#sign-form fieldset p.phone input::-moz-placeholder,
+.form_container .form form#sign-form fieldset p.phone select::-moz-placeholder {
+    padding-left: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    color: white;
+}
+
+/* line 8, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+.form_container .form form#sign-form fieldset p.normal input:-ms-input-placeholder,
+.form_container .form form#sign-form fieldset p.normal select:-ms-input-placeholder,
+.form_container .form form#sign-form fieldset p.date input:-ms-input-placeholder,
+.form_container .form form#sign-form fieldset p.date select:-ms-input-placeholder,
+.form_container .form form#sign-form fieldset p.phone input:-ms-input-placeholder,
+.form_container .form form#sign-form fieldset p.phone select:-ms-input-placeholder {
+    padding-left: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    color: white;
+}
+
+.form_container .form form#sign-form fieldset p.normal input:focus,
+.form_container .form form#sign-form fieldset p.date input:focus,
+.form_container .form form#sign-form fieldset p.phone input:focus {
+    -webkit-box-shadow: 0 0 10px white;
+    -moz-box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px white;
+    outline: none;
+}
+
+/* line 610, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p.normal select,
+.form_container .form form#sign-form fieldset p.date select,
+.form_container .form form#sign-form fieldset p.phone select {
+    padding-left: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    color: white;
+}
+
+.form_container .form form#sign-form fieldset p.normal select option,
+.form_container .form form#sign-form fieldset p.date select option,
+.form_container .form form#sign-form fieldset p.phone select option {
+    color: black;
+}
+
+.form_container .form form#sign-form fieldset p.normal input[type="number"]::-webkit-input-placeholder,
+.form_container .form form#sign-form fieldset p.normal input[type="number"]:-moz-placeholder,
+.form_container .form form#sign-form fieldset p.normal input[type="number"]::-moz-placeholder {
+    padding-left: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    color: white;
+}
+
+/* line 619, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p.normal input,
+.form_container .form form#sign-form fieldset p.normal select {
+    width: 100%;
+}
+
+/* line 622, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p.date {
+    height: 46px;
+}
+
+/* line 625, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p.date label {
+    width: 19%;
+    float: left;
+    padding-top: 3%;
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1em;
+    color: white;
+}
+
+/* line 638, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p.date input {
+    width: 70% !important;
+    float: right !important;
+    clear: none !important;
+    background-position: 97% 50% !important;
+}
+
+/* line 644, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p.phone {
+    clear: none;
+}
+
+/* line 647, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p.phone #countrycode {
+    width: 20%;
+    padding-left: 25px;
+    padding-right: 4px;
+    float: left;
+    /* background: url(../images/plus_white.svg) no-repeat -3px center !important; */
+}
+
+/* line 651, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p.phone #phone {
+    width: 78%;
+    float: right;
+}
+
+/* line 656, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form form#sign-form fieldset p.submit input {
+    height: 40px;
+    width: 100%;
+    margin: 14px auto 20px !important;
+    border: 0px solid #598628;
+    -webkit-box-shadow: 0px 3px 0px #598628;
+    -moz-box-shadow: 0px 3px 0px #598628;
+    box-shadow: 0px 3px 0px #598628;
+    text-shadow: 0px 2px 0px #598628;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    border-radius: 9px;
+    font-size: 1.125em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.form_container .form form#sign-form fieldset p.checkbox {
+    margin: 0 auto;
+    padding-left: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1em;
+    color: white;
+}
+
+.form_container .form form#sign-form fieldset p.checkbox input {
+    display: inline-block;
+    float: left;
+    height: 20px;
+}
+
+.form_container .form form#sign-form fieldset p.checkbox span {
+    display: inline-block;
+    float: left;
+    width: 90%;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+/* line 673, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form .division_line {
+    position: relative;
+    width: 100%;
+    margin: 0 0 10px;
+}
+
+/* line 675, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form .division_line .line {
+    border: none;
+    left: 0 !important;
+    position: relative !important;
+    height: 0 !important;
+    margin-top: 10px;
+    width: 100%;
+    border-top: 1px solid white;
+    border-bottom: none !important;
+}
+
+/* line 681, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .form .social_authentication p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.form_container .form .social_authentication p input {
+    width: 100%;
+    padding: 0;
+    border: none;
+    background: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.form_container .footer {
+    position: relative;
+    width: 100%;
+    margin-right: 2.94118%;
+    display: inline;
+    display: block;
+    margin: 17px auto -21px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.form_container .footer p {
+    padding: 0;
+    margin: 0 auto;
+    font-family: HelveticaNeueLtStd, "Helvetica neue", Helvetica, Arial, sans-serif;
+    font-size: .8em;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    color: white;
+}
+
+.form_container .footer p a {
+    text-decoration: none;
+    color: white;
+}
+
+.form_container .footer p a:visited {
+    color: white;
+}
+
+.form_container .footer .lattecreative {
+    position: absolute;
+    bottom: -40px;
+}
+
+/* line 845, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.form_container .footer .lattecreative a img {
+    width: 85px;
+    height: auto;
+}
+
+/* line 692, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.menu {
+    width: 100%;
+    float: left;
+    margin-right: 2.94118%;
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+}
+
+/* line 700, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.menu .menu_container {
+    width: 100%;
+    float: left;
+    margin-right: 2.94118%;
+    display: inline;
+    position: relative !important;
+    display: block;
+    height: 62px;
+    background: rgba(54, 119, 212, 0.9);
+}
+
+/* line 708, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.menu .menu_container .container_left {
+    width: 41.17647%;
+    float: left;
+    margin-right: 2.94118%;
+    display: inline;
+}
+@media (max-width: 767px) {
+    .menu .menu_container .container_left {
+        width: 100% !important;
+        text-align: center !important;
+    }
+}
+
+/* line 711, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.menu .menu_container .container_left ul.submenu {
+    display: none;
+    list-style-image: none;
+    list-style-type: none;
+}
+
+/* line 714, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.menu .menu_container .container_left ul.arrows {
+    display: block;
+    padding-top: 18px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+/* line 719, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.menu .menu_container .container_left ul.arrows li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    display: inline;
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+/* line 48, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.menu .menu_container .container_left ul.arrows li:first-child,
+.menu .menu_container .container_left ul.arrows li.first {
+    padding-left: 0;
+}
+
+/* line 49, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.menu .menu_container .container_left ul.arrows li:last-child {
+    padding-right: 0;
+}
+
+/* line 50, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.menu .menu_container .container_left ul.arrows li.last {
+    padding-right: 0;
+}
+
+/* line 727, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.menu .menu_container .container_right {
+    width: 55.88235%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -0.625em;
+    display: inline;
+}
+
+/* line 729, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.menu .menu_container .container_right .image {
+    position: relative;
+    height: 62px;
+    width: 100%;
+    background-position: center right;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+/* line 737, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.menu .menu_container .container_right .submit {
+    height: 40px;
+    width: 80%;
+    margin: 12px auto 0;
+    background: #7ea324;
+    -webkit-box-shadow: 2px 1px 1px #7ea324;
+    -moz-box-shadow: 2px 1px 1px #7ea324;
+    box-shadow: 2px 1px 1px #7ea324;
+    text-shadow: 0px 0px 1px black;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    border-radius: 9px;
+    font-size: 1.125em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 2em;
+    color: white;
+    text-align: center;
+}
+
+/* line 752, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+.menu .menu_container .container_right .submit a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+}
+
+/* line 6, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+.menu .menu_container .container_right .submit a:active,
+.menu .menu_container .container_right .submit a:focus {
+    outline: none;
+}
+
+/*Thank you page */
+body[lang=es-CO] #thankyou.container .share_donate {
+    padding-bottom: 0 !important;
+}
+
+body[lang=es-CO] #thankyou.container .backdrop {
+    height: 200px !important;
+}
+
+body[lang=es-CO] #thankyou.container .share_donate .social {
+    height: 165px;
+}
+
+body[lang=es-CO] #thankyou.container .share_donate .social .share {
+    top: 50px !important;
+    margin-top: 20px !important;
+}
+
+body[lang=es-CO] #thankyou.container .share_donate .donate {
+    display: none !important;
+}
+
+
+/* line 757, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container {
+    position: relative;
+}
+
+/* line 760, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .backdrop {
+    position: relative;
+    /*background: url("../images/main_sea-ice-full.jpg") no-repeat 50% 50%;*/
+    /*background-size: cover; */
+}
+
+/* line 765, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .backdrop .header {
+    background: none;
+}
+
+/* line 769, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .backdrop .header .share p {
+    display: none;
+}
+
+/* line 773, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .backdrop .message {
+    position: absolute;
+    height: 66px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+/* line 779, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .backdrop .message h2 {
+    margin: 0;
+    font-family: HelveticaNeueLtStd, "Helvetica neue", Helvetica, Arial, sans-serif;
+    font-size: 0.75em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* line 787, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .backdrop .message h2 span {
+    display: block;
+    font-family: SavetheArtic, "Helvetica neue", Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5em;
+}
+
+/* line 796, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .share_donate {
+    width: 100%;
+    float: left;
+    margin-right: 2.94118%;
+    display: inline;
+    padding-bottom: 73px;
+    background: white;
+}
+
+/* line 800, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .share_donate .title {
+    width: 100%;
+    float: left;
+    margin-right: 2.94118%;
+    display: inline;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 33px auto;
+}
+
+/* line 805, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .share_donate .title h2 {
+    margin: 0 auto;
+    font-size: 0.75em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1em;
+    color: black;
+}
+
+/* line 814, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .share_donate .social {
+    position: relative;
+    height: 270px;
+    text-align: center;
+}
+
+#thankyou.container .no-h2 .social {
+    margin-top: -50px !important;
+}
+
+/* line 820, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .share_donate .social .share {
+    position: absolute;
+    width: 100%;
+    top: 167px;
+}
+
+/* line 826, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .share_donate .social .share .fb,
+#thankyou.container .share_donate .social .share .tw {
+    display: block;
+    width: 160px;
+    margin: auto;
+}
+
+/* line 831, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .share_donate .social .share .fb p,
+#thankyou.container .share_donate .social .share .tw p {
+    display: inline;
+    margin: 0;
+    padding-right: 4px;
+    vertical-align: super;
+    font-family: HelveticaNeueLtStd, "Helvetica neue", Helvetica, Arial, sans-serif;
+    font-size: 0.75em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1em;
+    color: black;
+}
+
+/* line 843, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .share_donate .social .share .fb .img,
+#thankyou.container .share_donate .social .share .tw .img {
+    display: inline;
+}
+
+/* line 847, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .share_donate .social .share .tw p {
+    padding-right: 20px;
+}
+
+/* line 850, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .share_donate .social .donate {
+    position: absolute;
+    width: 100%;
+    top: 56px;
+    margin-top: 20px;
+}
+
+/* line 857, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .share_donate .social .donate .submit {
+    height: 64px;
+    width: 190px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 3px 0px #598628;
+    -moz-box-shadow: 0px 3px 0px #598628;
+    box-shadow: 0px 3px 0px #598628;
+    text-shadow: 0px 2px 0px #598628;
+    border: 2px solid #598628;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    border-radius: 9px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+/* line 869, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .share_donate .social .donate .submit a {
+    text-transform: uppercase;
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+}
+
+/* line 6, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+#thankyou.container .share_donate .social .donate .submit a:active,
+#thankyou.container .share_donate .social .donate .submit a:focus {
+    outline: none;
+}
+
+/* line 873, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .share_donate .social .donate .submit a p {
+    margin: 0;
+    padding-top: 10px;
+    font-family: HelveticaNeueLtStd, "Helvetica neue", Helvetica, Arial, sans-serif;
+    font-size: 0.75em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    color: white;
+}
+
+/* line 883, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
+#thankyou.container .share_donate .social .donate .submit a p span {
+    display: block;
+    font-size: 1.125em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5em;
+}
+
+/* line 1077, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container h3.df_title {
+    margin: 10px auto 0;
+    line-height: 1em;
+}
+
+/* line 1081, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container p.df_subtitle {
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 0.8em;
+    color: #666666;
+}
+
+/* line 1087, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .separate {
+    box-sizing: border-box;
+}
+
+/* line 1089, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .separate select {
+    width: 100%;
+}
+
+/* line 1092, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .separate span.description {
+    width: 100%;
+}
+
+/* line 1096, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .separate span.description input,
+#thankyou.container .separate span.description select {
+    width: 100%;
+}
+
+/* line 1099, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .separate span.description span {
+    display: block;
+}
+
+/* line 1102, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .standard {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 10px auto 0px;
+}
+
+/* line 1108, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .standard label {
+    display: block;
+    font-size: 0.9em;
+}
+
+/* line 1112, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .standard input,
+#thankyou.container .standard select {
+    border: 1px solid black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 6px;
+    padding-right: 10%;
+}
+
+/* line 2, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_placeholder.sass */
+#thankyou.container .standard input::-webkit-input-placeholder,
+#thankyou.container .standard select::-webkit-input-placeholder {
+    padding-left: 6px !important;
+}
+
+/* line 4, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_placeholder.sass */
+#thankyou.container .standard input:-moz-placeholder,
+#thankyou.container .standard select:-moz-placeholder {
+    padding-left: 6px !important;
+}
+
+/* line 6, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_placeholder.sass */
+#thankyou.container .standard input::-moz-placeholder,
+#thankyou.container .standard select::-moz-placeholder {
+    padding-left: 6px !important;
+}
+
+/* line 8, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_placeholder.sass */
+#thankyou.container .standard input:-ms-input-placeholder,
+#thankyou.container .standard select:-ms-input-placeholder {
+    padding-left: 6px !important;
+}
+
+/* line 1122, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .standard input:focus,
+#thankyou.container .standard select:focus {
+    -webkit-box-shadow: 0 0 6px #7ea324;
+    -moz-box-shadow: 0 0 6px #7ea324;
+    box-shadow: 0 0 6px #7ea324;
+    outline: none;
+}
+
+/* line 1129, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .standard input {
+    height: 30px;
+    width: 100%;
+}
+
+/* line 1133, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .standard select {
+    height: 30px;
+    background: white;
+    padding-top: 0;
+    padding-bottom: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+/* line 1151, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .special span.description {
+    width: 100%;
+    display: inline-block;
+}
+
+/* line 1156, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .special span.description input#df_code_input {
+    width: 20%;
+    padding-right: 5px !important;
+}
+
+/* line 1159, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .special span.description input#df_phone_input {
+    width: 60%;
+    padding-right: 5px !important
+}
+
+/* line 1162, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .special span.description span {
+    display: block;
+}
+
+/* line 1168, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container {
+    width: 100%;
+    float: left;
+    margin-right: 2.94118%;
+    display: inline;
+}
+
+/* line 1171, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container label.error {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0.3em;
+    font-size: 0.7em;
+    line-height: 1em;
+    color: red;
+    text-align: left;
+}
+
+/* line 1183, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container span.description span {
+    padding-top: 0.3em;
+    font-size: 0.7em;
+    line-height: 1em;
+}
+
+/* line 1190, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container p input[required="required"],
+#thankyou.container .donation_container p input[aria-required="true"],
+#thankyou.container .donation_container p input[required] {
+    /* background: url("../images/form_required.svg") no-repeat 98% center !important; */
+}
+
+/* line 1192, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container p input.error {
+    /* background: url("../images/form_error.svg") no-repeat 98% center !important; */
+}
+
+/* line 1194, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container p input.valid {
+    /* background: url("../images/form_checked.svg") no-repeat 98% center !important; */
+}
+
+/* line 1197, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container p input.error,
+#thankyou.container .donation_container select.error {
+    border: 1px solid red;
+}
+
+/* line 1200, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-right: 2.94118%;
+    display: inline;
+    margin-bottom: 80px;
+    background: white;
+}
+
+/* line 1207, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_amount,
+#thankyou.container .donation_container #donation_form #df_personal_info,
+#thankyou.container .donation_container #donation_form #df_donation_info,
+#thankyou.container .donation_container #donation_form #df_credits {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-right: 2.94118%;
+    display: inline;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+/* line 1214, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_personal_info,
+#thankyou.container .donation_container #donation_form #df_donation_info,
+#thankyou.container .donation_container #donation_form #df_credits {
+    margin-top: 10px;
+}
+
+/* line 1217, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_amount {
+    position: relative;
+    margin-top: -25px;
+}
+
+/* line 1228, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_amount ul {
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* line 1232, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_amount ul li.container_left,
+#thankyou.container .donation_container #donation_form #df_amount ul li.container_right {
+    width: 100%;
+    float: left;
+    margin-right: 2.94118%;
+    display: inline;
+}
+
+/* line 1235, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_amount ul li {
+    display: block;
+}
+
+/* line 1238, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_amount ul li input[type] {
+    height: 14px;
+    width: auto;
+}
+
+/* line 1242, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_amount ul li input:checked~p.value {
+    color: #666666;
+}
+
+/* line 1245, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_amount ul li p.value {
+    display: inline-block;
+    padding-left: 6px;
+    margin: 4px auto;
+    color: black;
+}
+
+/* line 1251, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_amount p#amount_block {
+    display: none;
+}
+
+/* line 1255, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_personal_info p#phonecompany_block {
+    display: none;
+}
+
+/* line 1259, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_donation_info p.submit {
+    display: inline-block;
+    width: 100%;
+    margin: 30px auto 30px;
+    clear: both;
+    text-align: center;
+}
+
+/* line 1265, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_donation_info p.submit input {
+    height: 45px;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    clear: both;
+    -webkit-box-shadow: 0px 3px 0px #598628;
+    -moz-box-shadow: 0px 3px 0px #598628;
+    box-shadow: 0px 3px 0px #598628;
+    text-shadow: 0px 2px 0px #598628;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    border-radius: 9px;
+    font-size: 1em;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    letter-spacing: 0.05em;
+}
+
+/* line 1286, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_credits {
+    text-align: right;
+}
+
+/* line 1289, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_320grid.sass */
+#thankyou.container .donation_container #donation_form #df_credits a img {
+    height: 35px !important;
+    width: auto !important;
+}
+
+
+#thankyou.container~.menu {
+    display: block !important;
+}
+
+@media (min-width: 40em) {
+
+    /* line 5, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    body[dir=rtl] #principal_container.container .cookie_container .cookie_disclaimer p,
+    body[dir=rtl] #thankyou.container .cookie_container .cookie_disclaimer p {
+        float: right;
+        padding-right: 0;
+    }
+
+    body[dir=rtl] #principal_container.container .header .container_right .share p,
+    body[dir=rtl] #thankyou.container .header .container_right .share p {
+        float: right;
+        padding-left: 4px;
+    }
+
+    body[dir=rtl] #principal_container.container .header .container_right .share img,
+    body[dir=rtl] #thankyou.container .header .container_right .share img {
+        float: left;
+    }
+
+    .icone {
+        left: 27px;
+    }
+
+    /* line 7, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .icone img {
+        width: 80%;
+        height: auto;
+    }
+
+    /* line 15, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #principal_container.container .background_video iframe {
+        display: none;
+    }
+
+    /* line 18, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #principal_container.container .background_video .click_block {
+        display: none;
+    }
+
+    /* line 21, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #principal_container.container .background_video .background_image {
+        display: block;
+    }
+
+    /* line 29, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #principal_container.container .header .container_left {
+        width: 45.3125%;
+        float: left;
+        margin-right: 1.5625%;
+    }
+
+    /* line 32, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #principal_container.container .header .container_right {
+        width: 53.125%;
+        float: right;
+        margin-right: 0;
+        margin-top: 14px;
+    }
+
+    /* line 37, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #principal_container.container .header .container_right .lenguages {
+        display: inline;
+        float: right;
+        margin-right: 40px;
+        padding-right: 0;
+    }
+
+    /* line 41, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #principal_container.container .header .container_right .share {
+        display: inline;
+        float: right;
+        margin-right: 7.8125%;
+        padding-right: 0;
+    }
+
+    /* line 47, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #principal_container.container .header .container_right .share p {
+        display: block;
+        margin: 0;
+        padding-top: 5px;
+        padding-right: 4px;
+    }
+
+    /* line 53, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    /*#principal_container.container .header .container_right .share .img {*/
+    /*float: left;*/
+    /*padding-left: 2px; }*/
+
+    /* line 59, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #principal_message.principal_message {
+        /*margin-top: -170px;*/
+    }
+
+    #principal_message.principal_message p {
+        /*color: #011852;*/
+    }
+
+    /* line 63, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #principal_form.form,
+    body.mobile #principal_form.form {
+        width: 90%;
+        max-width: 300px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;
+        margin: auto;
+    }
+
+    /* line 67, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #principal_form.form .progress_bar {
+        /*font-size: 0.6875em;*/
+    }
+
+    /* line 83, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .container {
+        width: 100%;
+        float: left;
+        margin-right: 1.5625%;
+    }
+
+    /* line 88, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .odd .image,
+    .even .image,
+    .form_container .image {
+        height: 446px;
+        overflow: hidden;
+    }
+
+    /* line 97, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .odd .image .mobile_title,
+    .even .image .mobile_title,
+    .form_container .image .mobile_title {
+        /*height: 105px;*/
+        padding: 4%;
+        padding-left: 1.6875em;
+        padding-bottom: 50px;
+    }
+
+    /* line 101, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .odd .image .mobile_title h2,
+    .even .image .mobile_title h2,
+    .form_container .image .mobile_title h2 {
+        font-size: 32px;
+    }
+
+    /* line 105, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .odd .title h2,
+    .even .title h2,
+    .form_container .title h2 {
+        font-size: 32px;
+    }
+
+    /* line 108, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .odd .paragraphs,
+    .even .paragraphs,
+    .form_container .paragraphs {
+        padding-left: 1.6875em;
+        padding-right: 1.6875em;
+    }
+
+    /* line 111, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .odd .paragraphs p,
+    .even .paragraphs p,
+    .form_container .paragraphs p {
+        font-size: 0.875em;
+    }
+
+    /* line 113, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .odd .paragraphs p.subtitle,
+    .even .paragraphs p.subtitle,
+    .form_container .paragraphs p.subtitle {
+        margin-top: 13px;
+        margin-bottom: 15px;
+        font-size: 1.25em;
+    }
+
+    /* line 122, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .form_container {
+        width: 100%;
+        float: left;
+        margin-right: 1.5625%;
+    }
+
+    /* line 126, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .form_container .text .title,
+    .form_container .text .paragraphs,
+    .form_container .text .social .share {
+        padding-left: 1.6875em;
+        padding-right: 1.6875em;
+    }
+
+    /* line 136, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .form_container .form #down_progress_bar.progress_bar,
+    .form_container .form p.error,
+    .form_container .form form#sign-form,
+    .form_container .form .social_authentication {
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+
+    /* line 146, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .form_container .form form#sign-form fieldset p .normal,
+    .form_container .form form#sign-form fieldset p .phone {
+        height: 52px;
+        margin: 4px auto 4px;
+    }
+
+    /* line 2, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+    .form_container .form form#sign-form fieldset p .normal::-webkit-input-placeholder,
+    .form_container .form form#sign-form fieldset p .phone::-webkit-input-placeholder {
+        font-size: 1em;
+    }
+
+    /* line 4, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+    .form_container .form form#sign-form fieldset p .normal:-moz-placeholder,
+    .form_container .form form#sign-form fieldset p .phone:-moz-placeholder {
+        font-size: 1em;
+    }
+
+    /* line 6, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+    .form_container .form form#sign-form fieldset p .normal::-moz-placeholder,
+    .form_container .form form#sign-form fieldset p .phone::-moz-placeholder {
+        font-size: 1em;
+    }
+
+    /* line 8, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+    .form_container .form form#sign-form fieldset p .normal:-ms-input-placeholder,
+    .form_container .form form#sign-form fieldset p .phone:-ms-input-placeholder {
+        font-size: 1em;
+    }
+
+    /* line 156, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .form_container .form form#sign-form fieldset p select.phone {
+        font-size: 1em;
+    }
+
+    /* line 161, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .form_container .form form#sign-form fieldset p .submit {
+        height: 50px;
+        -webkit-box-shadow: 2px 1px 2px #7ea324;
+        -moz-box-shadow: 2px 1px 2px #7ea324;
+        box-shadow: 2px 1px 2px #7ea324;
+        text-shadow: 0px 0px 2px black;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        -ms-border-radius: 9px;
+        -o-border-radius: 9px;
+        border-radius: 9px;
+        font-size: 1.125em;
+    }
+
+    /* line 170, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .form_container .form .division_line .line {
+        border-bottom: 1px solid white;
+    }
+
+    /* line 175, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .form_container .form .social_authentication p {
+        margin: 0px auto;
+        font-size: 1em;
+    }
+
+    .form_container .footer {
+        width: 100%;
+        float: left;
+        margin-right: 1.5625%;
+        position: relative;
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+
+    /* line 180, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .menu {
+        width: 100%;
+        float: left;
+        margin-right: 1.5625%;
+        display: block;
+    }
+
+    /* line 185, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .menu .menu_container .container_left {
+        width: 53.125%;
+        float: left;
+        margin-right: 1.5625%;
+        position: relative;
+    }
+
+    /* line 190, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .menu .menu_container .container_left ul.submenu.elements {
+        display: none;
+    }
+
+    /* line 194, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .menu .menu_container .container_left ul.submenu.points li {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    /* line 196, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .menu .menu_container .container_left ul.submenu.points li a {
+        -webkit-transition: -webkit-transform 0.3s ease, background-color 0.3s ease;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    /* line 199, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .menu .menu_container .container_left ul.submenu.points li a:hover,
+    .menu .menu_container .container_left ul.submenu.points li a:focus {
+        background-color: white;
+    }
+
+    /* line 201, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .menu .menu_container .container_left ul.submenu.points li.current {
+        background-color: rgba(255, 255, 255, 0.3);
+        -webkit-transition: -webkit-transform 0.3s ease, background-color 0.3s ease;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    /* line 205, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .menu .menu_container .container_left ul.submenu.points li.current a {
+        background-color: white;
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    /* line 211, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .menu .menu_container .container_left ul.submenu.points {
+        position: relative;
+        margin: 0;
+        padding: 23px 0 13px 0;
+        cursor: default;
+        display: block;
+    }
+
+    /* line 221, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .menu .menu_container .container_left ul.submenu.points li {
+        position: relative;
+        display: block;
+        float: left;
+        width: 18px;
+        height: 18px;
+        margin: 0 14px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    /* line 232, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .menu .menu_container .container_left ul.submenu.points li a {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        border-radius: 50%;
+        background-color: white;
+        background-color: rgba(255, 255, 255, 0.3);
+        text-indent: -999em;
+        cursor: pointer;
+        position: absolute;
+    }
+
+    /* line 245, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .menu .menu_container .container_left ul.arrows {
+        display: none;
+    }
+
+    /* line 248, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    .menu .menu_container .container_right {
+        width: 37.5%;
+        float: right;
+        margin-right: 0;
+        margin-right: 3.125%;
+    }
+
+    /*Thank you page */
+    /* line 302, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    body[lang=es-CO] #thankyou.container .share_donate .social {
+        height: auto;
+    }
+
+    /* line 305, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    body[lang=es-CO] #thankyou.container .no-h2 .social {
+        margin-top: 40px !important;
+    }
+
+    body[lang=es-CO] #thankyou.container .share_donate .social .share {
+        width: 53.125% !important;
+        float: none;
+        top: 0px !important;
+        margin-top: 0 !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* line 312, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    body[lang=es-CO] #thankyou.container .share_donate .social .share .fb {
+        width: auto !important;
+        float: left;
+        clear: none;
+    }
+
+    /* line 317, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    body[lang=es-CO] #thankyou.container .share_donate .social .share .fb p {
+        padding-right: 6px;
+    }
+
+    /* line 320, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    body[lang=es-CO] #thankyou.container .share_donate .social .share .tw {
+        width: auto !important;
+        float: right;
+        clear: none;
+    }
+
+    /* line 325, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    body[lang=es-CO] #thankyou.container .share_donate .social .share .tw p {
+        padding-right: 6px;
+    }
+
+    /* line 255, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container {
+        position: relative;
+    }
+
+    /* line 261, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .backdrop .header .share {
+        margin-right: 3.125%;
+        padding-right: 0;
+    }
+
+    /* line 265, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .backdrop .header .share p {
+        display: block;
+    }
+
+    /* line 268, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .backdrop .message {
+        height: 90px;
+    }
+
+    /* line 270, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .backdrop .message h2 {
+        margin: 0;
+        font-size: 1.125em;
+    }
+
+    /* line 274, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .backdrop .message h2 span {
+        font-size: 1.625em;
+    }
+
+    /* line 277, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .share_donate {
+        width: 100%;
+        float: left;
+        margin-right: 1.5625%;
+    }
+
+    /* line 280, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .share_donate .title {
+        width: 100%;
+        float: left;
+        margin-right: 1.5625%;
+        margin: 45px auto 27px;
+    }
+
+    #thankyou.container .no-h2 .title {
+        margin: 0 auto !important;
+    }
+
+    /* line 284, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .share_donate .title h2 {
+        font-size: 1.375em;
+    }
+
+    /* line 287, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .share_donate .social {
+        width: 100%;
+        float: left;
+        margin-right: 1.5625%;
+        height: auto;
+        text-align: none;
+        margin-top: 20px;
+    }
+
+    #thankyou.container .no-h2 .social {
+        margin-top: 50px !important;
+    }
+
+    /* line 293, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .share_donate .social .share {
+        width: 45.3125%;
+        float: left;
+        margin-right: 1.5625%;
+        position: relative;
+        top: auto;
+        padding-top: 8px;
+    }
+
+    /* line 299, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .share_donate .social .share .fb,
+    #thankyou.container .share_donate .social .share .tw {
+        float: right;
+        clear: both;
+    }
+
+    /* line 302, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .share_donate .social .share .fb p,
+    #thankyou.container .share_donate .social .share .tw p {
+        margin: 0;
+        font-size: 0.75em;
+    }
+
+    /* line 307, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .share_donate .social .donate {
+        width: 45.3125%;
+        float: right;
+        margin-right: 0;
+        position: relative;
+        height: 74px;
+        top: auto;
+        margin-top: 0;
+    }
+
+    /* line 314, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .share_donate .social .donate .submit {
+        float: left;
+        text-align: center;
+    }
+
+    /* line 320, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .share_donate .social .donate .submit a p {
+        margin: 0;
+        padding-top: 4px;
+        font-size: 0.875em;
+    }
+
+    /* line 325, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_640grid.sass */
+    #thankyou.container .share_donate .social .donate .submit a p span {
+        font-size: 22px;
+    }
+
+    /* line 409, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .separate select {
+        width: 60%;
+    }
+
+    /* line 411, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .separate span.description {
+        width: 60%;
+        display: inline-block;
+    }
+
+    /* line 414, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .separate span.description input {
+        width: 100%;
+    }
+
+    /* line 417, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .standard {
+        margin: 20px auto 0px;
+    }
+
+    /* line 420, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .standard label {
+        display: inline-block;
+        float: left;
+        width: 30%;
+        padding-right: 10px;
+        text-align: right;
+        line-height: 1em;
+    }
+
+    /* line 436, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .standard input {
+        width: 60%;
+    }
+
+    /* line 447, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .special span.description {
+        width: 60%;
+    }
+
+    /* line 450, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .special span.description input#df_code_input {
+        width: 10%;
+    }
+
+    /* line 453, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .special span.description input#df_phone_input {
+        width: 30%;
+    }
+
+    /* line 456, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .special span.description span {
+        width: 100%;
+    }
+
+    /* line 460, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .donation_container {
+        position: relative;
+        width: 100%;
+        float: left;
+        margin-right: 1.5625%;
+    }
+
+    /* line 470, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .donation_container #donation_form {
+        position: relative;
+        width: 68.75%;
+        float: left;
+        margin-right: 1.5625%;
+        margin-left: 15.625%;
+        margin-right: 15.625%;
+    }
+
+    /* line 480, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .donation_container #donation_form #df_personal_info,
+    #thankyou.container .donation_container #donation_form #df_donation_info,
+    #thankyou.container .donation_container #donation_form #df_credits {
+        margin-top: 36px;
+    }
+
+    /* line 483, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .donation_container #donation_form #df_amount {
+        margin-top: 36px;
+    }
+
+    /* line 494, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .donation_container #donation_form #df_amount ul li.container_left {
+        width: 48.97959%;
+        float: left;
+        margin-right: 2.04082%;
+        padding-left: 7.8125%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    /* line 498, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .donation_container #donation_form #df_amount ul li.container_right {
+        width: 48.97959%;
+        float: right;
+        margin-right: 0;
+        padding-left: 7.8125%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    /* line 508, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .donation_container #donation_form #df_donation_info p.submit {
+        text-align: center;
+    }
+
+    /* line 510, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .donation_container #donation_form #df_donation_info p.submit input {
+        width: 300px;
+    }
+
+    /* line 513, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_640grid.sass */
+    #thankyou.container .donation_container #donation_form #df_credits {
+        text-align: right;
+    }
+}
+
+
+@media (min-width: 49.375em) {
+    /* line 3, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+
+    /*RTL lenguages*/
+    body[dir=rtl] #principal_container.container .cookie_container,
+    body[dir=rtl] #thankyou.container .cookie_container {
+        padding-right: 3.79747%;
+        padding-left: 0;
+    }
+
+    body[dir=rtl] .form_container .form .division_line .line {
+        right: 0;
+    }
+
+    body[dir=rtl] .menu {
+        margin-right: 0;
+    }
+
+
+    /*Cyrillic*/
+    body[lang=ru] .odd .title h2,
+    body[lang=ru] .even .title h2,
+    body[lang=ru] .form_container .title h2 {
+        font-weight: 400;
+    }
+
+    body[lang=ru] .odd .title h2 span,
+    body[lang=ru] .even .title h2 span,
+    body[lang=ru] .form_container .title h2 span {
+        font-weight: 800;
+    }
+
+    .icone {
+        position: fixed;
+        left: 3.79747%;
+    }
+
+    /* line 5, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .icone img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* line 8, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .container {
+        background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(5.06329%, rgba(100, 100, 225, 0.25)), color-stop(5.06329%, rgba(0, 0, 0, 0)), color-stop(6.32911%, rgba(0, 0, 0, 0)), color-stop(6.32911%, rgba(100, 100, 225, 0.25)), color-stop(11.39241%, rgba(100, 100, 225, 0.25)), color-stop(11.39241%, rgba(0, 0, 0, 0)), color-stop(12.65823%, rgba(0, 0, 0, 0)), color-stop(12.65823%, rgba(100, 100, 225, 0.25)), color-stop(17.72152%, rgba(100, 100, 225, 0.25)), color-stop(17.72152%, rgba(0, 0, 0, 0)), color-stop(18.98734%, rgba(0, 0, 0, 0)), color-stop(18.98734%, rgba(100, 100, 225, 0.25)), color-stop(24.05063%, rgba(100, 100, 225, 0.25)), color-stop(24.05063%, rgba(0, 0, 0, 0)), color-stop(25.31646%, rgba(0, 0, 0, 0)), color-stop(25.31646%, rgba(100, 100, 225, 0.25)), color-stop(30.37975%, rgba(100, 100, 225, 0.25)), color-stop(30.37975%, rgba(0, 0, 0, 0)), color-stop(31.64557%, rgba(0, 0, 0, 0)), color-stop(31.64557%, rgba(100, 100, 225, 0.25)), color-stop(36.70886%, rgba(100, 100, 225, 0.25)), color-stop(36.70886%, rgba(0, 0, 0, 0)), color-stop(37.97468%, rgba(0, 0, 0, 0)), color-stop(37.97468%, rgba(100, 100, 225, 0.25)), color-stop(43.03797%, rgba(100, 100, 225, 0.25)), color-stop(43.03797%, rgba(0, 0, 0, 0)), color-stop(44.3038%, rgba(0, 0, 0, 0)), color-stop(44.3038%, rgba(100, 100, 225, 0.25)), color-stop(50%, rgba(100, 100, 225, 0.25)), color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50.63291%, rgba(0, 0, 0, 0)), color-stop(50.63291%, rgba(100, 100, 225, 0.25)), color-stop(55.6962%, rgba(100, 100, 225, 0.25)), color-stop(55.6962%, rgba(0, 0, 0, 0)), color-stop(56.96203%, rgba(0, 0, 0, 0)), color-stop(56.96203%, rgba(100, 100, 225, 0.25)), color-stop(62.02532%, rgba(100, 100, 225, 0.25)), color-stop(62.02532%, rgba(0, 0, 0, 0)), color-stop(63.29114%, rgba(0, 0, 0, 0)), color-stop(63.29114%, rgba(100, 100, 225, 0.25)), color-stop(68.35443%, rgba(100, 100, 225, 0.25)), color-stop(68.35443%, rgba(0, 0, 0, 0)), color-stop(69.62025%, rgba(0, 0, 0, 0)), color-stop(69.62025%, rgba(100, 100, 225, 0.25)), color-stop(74.68354%, rgba(100, 100, 225, 0.25)), color-stop(74.68354%, rgba(0, 0, 0, 0)), color-stop(75.94937%, rgba(0, 0, 0, 0)), color-stop(75.94937%, rgba(100, 100, 225, 0.25)), color-stop(81.01266%, rgba(100, 100, 225, 0.25)), color-stop(81.01266%, rgba(0, 0, 0, 0)), color-stop(82.27848%, rgba(0, 0, 0, 0)), color-stop(82.27848%, rgba(100, 100, 225, 0.25)), color-stop(87.34177%, rgba(100, 100, 225, 0.25)), color-stop(87.34177%, rgba(0, 0, 0, 0)), color-stop(88.60759%, rgba(0, 0, 0, 0)), color-stop(88.60759%, rgba(100, 100, 225, 0.25)), color-stop(93.67089%, rgba(100, 100, 225, 0.25)), color-stop(93.67089%, rgba(0, 0, 0, 0)), color-stop(94.93671%, rgba(0, 0, 0, 0)), color-stop(94.93671%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 5.06329%, rgba(0, 0, 0, 0) 5.06329%, rgba(0, 0, 0, 0) 6.32911%, rgba(100, 100, 225, 0.25) 6.32911%, rgba(100, 100, 225, 0.25) 11.39241%, rgba(0, 0, 0, 0) 11.39241%, rgba(0, 0, 0, 0) 12.65823%, rgba(100, 100, 225, 0.25) 12.65823%, rgba(100, 100, 225, 0.25) 17.72152%, rgba(0, 0, 0, 0) 17.72152%, rgba(0, 0, 0, 0) 18.98734%, rgba(100, 100, 225, 0.25) 18.98734%, rgba(100, 100, 225, 0.25) 24.05063%, rgba(0, 0, 0, 0) 24.05063%, rgba(0, 0, 0, 0) 25.31646%, rgba(100, 100, 225, 0.25) 25.31646%, rgba(100, 100, 225, 0.25) 30.37975%, rgba(0, 0, 0, 0) 30.37975%, rgba(0, 0, 0, 0) 31.64557%, rgba(100, 100, 225, 0.25) 31.64557%, rgba(100, 100, 225, 0.25) 36.70886%, rgba(0, 0, 0, 0) 36.70886%, rgba(0, 0, 0, 0) 37.97468%, rgba(100, 100, 225, 0.25) 37.97468%, rgba(100, 100, 225, 0.25) 43.03797%, rgba(0, 0, 0, 0) 43.03797%, rgba(0, 0, 0, 0) 44.3038%, rgba(100, 100, 225, 0.25) 44.3038%, rgba(100, 100, 225, 0.25) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 50.63291%, rgba(100, 100, 225, 0.25) 50.63291%, rgba(100, 100, 225, 0.25) 55.6962%, rgba(0, 0, 0, 0) 55.6962%, rgba(0, 0, 0, 0) 56.96203%, rgba(100, 100, 225, 0.25) 56.96203%, rgba(100, 100, 225, 0.25) 62.02532%, rgba(0, 0, 0, 0) 62.02532%, rgba(0, 0, 0, 0) 63.29114%, rgba(100, 100, 225, 0.25) 63.29114%, rgba(100, 100, 225, 0.25) 68.35443%, rgba(0, 0, 0, 0) 68.35443%, rgba(0, 0, 0, 0) 69.62025%, rgba(100, 100, 225, 0.25) 69.62025%, rgba(100, 100, 225, 0.25) 74.68354%, rgba(0, 0, 0, 0) 74.68354%, rgba(0, 0, 0, 0) 75.94937%, rgba(100, 100, 225, 0.25) 75.94937%, rgba(100, 100, 225, 0.25) 81.01266%, rgba(0, 0, 0, 0) 81.01266%, rgba(0, 0, 0, 0) 82.27848%, rgba(100, 100, 225, 0.25) 82.27848%, rgba(100, 100, 225, 0.25) 87.34177%, rgba(0, 0, 0, 0) 87.34177%, rgba(0, 0, 0, 0) 88.60759%, rgba(100, 100, 225, 0.25) 88.60759%, rgba(100, 100, 225, 0.25) 93.67089%, rgba(0, 0, 0, 0) 93.67089%, rgba(0, 0, 0, 0) 94.93671%, rgba(100, 100, 225, 0.25) 94.93671%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 5.06329%, rgba(0, 0, 0, 0) 5.06329%, rgba(0, 0, 0, 0) 6.32911%, rgba(100, 100, 225, 0.25) 6.32911%, rgba(100, 100, 225, 0.25) 11.39241%, rgba(0, 0, 0, 0) 11.39241%, rgba(0, 0, 0, 0) 12.65823%, rgba(100, 100, 225, 0.25) 12.65823%, rgba(100, 100, 225, 0.25) 17.72152%, rgba(0, 0, 0, 0) 17.72152%, rgba(0, 0, 0, 0) 18.98734%, rgba(100, 100, 225, 0.25) 18.98734%, rgba(100, 100, 225, 0.25) 24.05063%, rgba(0, 0, 0, 0) 24.05063%, rgba(0, 0, 0, 0) 25.31646%, rgba(100, 100, 225, 0.25) 25.31646%, rgba(100, 100, 225, 0.25) 30.37975%, rgba(0, 0, 0, 0) 30.37975%, rgba(0, 0, 0, 0) 31.64557%, rgba(100, 100, 225, 0.25) 31.64557%, rgba(100, 100, 225, 0.25) 36.70886%, rgba(0, 0, 0, 0) 36.70886%, rgba(0, 0, 0, 0) 37.97468%, rgba(100, 100, 225, 0.25) 37.97468%, rgba(100, 100, 225, 0.25) 43.03797%, rgba(0, 0, 0, 0) 43.03797%, rgba(0, 0, 0, 0) 44.3038%, rgba(100, 100, 225, 0.25) 44.3038%, rgba(100, 100, 225, 0.25) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 50.63291%, rgba(100, 100, 225, 0.25) 50.63291%, rgba(100, 100, 225, 0.25) 55.6962%, rgba(0, 0, 0, 0) 55.6962%, rgba(0, 0, 0, 0) 56.96203%, rgba(100, 100, 225, 0.25) 56.96203%, rgba(100, 100, 225, 0.25) 62.02532%, rgba(0, 0, 0, 0) 62.02532%, rgba(0, 0, 0, 0) 63.29114%, rgba(100, 100, 225, 0.25) 63.29114%, rgba(100, 100, 225, 0.25) 68.35443%, rgba(0, 0, 0, 0) 68.35443%, rgba(0, 0, 0, 0) 69.62025%, rgba(100, 100, 225, 0.25) 69.62025%, rgba(100, 100, 225, 0.25) 74.68354%, rgba(0, 0, 0, 0) 74.68354%, rgba(0, 0, 0, 0) 75.94937%, rgba(100, 100, 225, 0.25) 75.94937%, rgba(100, 100, 225, 0.25) 81.01266%, rgba(0, 0, 0, 0) 81.01266%, rgba(0, 0, 0, 0) 82.27848%, rgba(100, 100, 225, 0.25) 82.27848%, rgba(100, 100, 225, 0.25) 87.34177%, rgba(0, 0, 0, 0) 87.34177%, rgba(0, 0, 0, 0) 88.60759%, rgba(100, 100, 225, 0.25) 88.60759%, rgba(100, 100, 225, 0.25) 93.67089%, rgba(0, 0, 0, 0) 93.67089%, rgba(0, 0, 0, 0) 94.93671%, rgba(100, 100, 225, 0.25) 94.93671%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 5.06329%, rgba(0, 0, 0, 0) 5.06329%, rgba(0, 0, 0, 0) 6.32911%, rgba(100, 100, 225, 0.25) 6.32911%, rgba(100, 100, 225, 0.25) 11.39241%, rgba(0, 0, 0, 0) 11.39241%, rgba(0, 0, 0, 0) 12.65823%, rgba(100, 100, 225, 0.25) 12.65823%, rgba(100, 100, 225, 0.25) 17.72152%, rgba(0, 0, 0, 0) 17.72152%, rgba(0, 0, 0, 0) 18.98734%, rgba(100, 100, 225, 0.25) 18.98734%, rgba(100, 100, 225, 0.25) 24.05063%, rgba(0, 0, 0, 0) 24.05063%, rgba(0, 0, 0, 0) 25.31646%, rgba(100, 100, 225, 0.25) 25.31646%, rgba(100, 100, 225, 0.25) 30.37975%, rgba(0, 0, 0, 0) 30.37975%, rgba(0, 0, 0, 0) 31.64557%, rgba(100, 100, 225, 0.25) 31.64557%, rgba(100, 100, 225, 0.25) 36.70886%, rgba(0, 0, 0, 0) 36.70886%, rgba(0, 0, 0, 0) 37.97468%, rgba(100, 100, 225, 0.25) 37.97468%, rgba(100, 100, 225, 0.25) 43.03797%, rgba(0, 0, 0, 0) 43.03797%, rgba(0, 0, 0, 0) 44.3038%, rgba(100, 100, 225, 0.25) 44.3038%, rgba(100, 100, 225, 0.25) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 50.63291%, rgba(100, 100, 225, 0.25) 50.63291%, rgba(100, 100, 225, 0.25) 55.6962%, rgba(0, 0, 0, 0) 55.6962%, rgba(0, 0, 0, 0) 56.96203%, rgba(100, 100, 225, 0.25) 56.96203%, rgba(100, 100, 225, 0.25) 62.02532%, rgba(0, 0, 0, 0) 62.02532%, rgba(0, 0, 0, 0) 63.29114%, rgba(100, 100, 225, 0.25) 63.29114%, rgba(100, 100, 225, 0.25) 68.35443%, rgba(0, 0, 0, 0) 68.35443%, rgba(0, 0, 0, 0) 69.62025%, rgba(100, 100, 225, 0.25) 69.62025%, rgba(100, 100, 225, 0.25) 74.68354%, rgba(0, 0, 0, 0) 74.68354%, rgba(0, 0, 0, 0) 75.94937%, rgba(100, 100, 225, 0.25) 75.94937%, rgba(100, 100, 225, 0.25) 81.01266%, rgba(0, 0, 0, 0) 81.01266%, rgba(0, 0, 0, 0) 82.27848%, rgba(100, 100, 225, 0.25) 82.27848%, rgba(100, 100, 225, 0.25) 87.34177%, rgba(0, 0, 0, 0) 87.34177%, rgba(0, 0, 0, 0) 88.60759%, rgba(100, 100, 225, 0.25) 88.60759%, rgba(100, 100, 225, 0.25) 93.67089%, rgba(0, 0, 0, 0) 93.67089%, rgba(0, 0, 0, 0) 94.93671%, rgba(100, 100, 225, 0.25) 94.93671%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+        background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 5.06329%, rgba(0, 0, 0, 0) 5.06329%, rgba(0, 0, 0, 0) 6.32911%, rgba(100, 100, 225, 0.25) 6.32911%, rgba(100, 100, 225, 0.25) 11.39241%, rgba(0, 0, 0, 0) 11.39241%, rgba(0, 0, 0, 0) 12.65823%, rgba(100, 100, 225, 0.25) 12.65823%, rgba(100, 100, 225, 0.25) 17.72152%, rgba(0, 0, 0, 0) 17.72152%, rgba(0, 0, 0, 0) 18.98734%, rgba(100, 100, 225, 0.25) 18.98734%, rgba(100, 100, 225, 0.25) 24.05063%, rgba(0, 0, 0, 0) 24.05063%, rgba(0, 0, 0, 0) 25.31646%, rgba(100, 100, 225, 0.25) 25.31646%, rgba(100, 100, 225, 0.25) 30.37975%, rgba(0, 0, 0, 0) 30.37975%, rgba(0, 0, 0, 0) 31.64557%, rgba(100, 100, 225, 0.25) 31.64557%, rgba(100, 100, 225, 0.25) 36.70886%, rgba(0, 0, 0, 0) 36.70886%, rgba(0, 0, 0, 0) 37.97468%, rgba(100, 100, 225, 0.25) 37.97468%, rgba(100, 100, 225, 0.25) 43.03797%, rgba(0, 0, 0, 0) 43.03797%, rgba(0, 0, 0, 0) 44.3038%, rgba(100, 100, 225, 0.25) 44.3038%, rgba(100, 100, 225, 0.25) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 50.63291%, rgba(100, 100, 225, 0.25) 50.63291%, rgba(100, 100, 225, 0.25) 55.6962%, rgba(0, 0, 0, 0) 55.6962%, rgba(0, 0, 0, 0) 56.96203%, rgba(100, 100, 225, 0.25) 56.96203%, rgba(100, 100, 225, 0.25) 62.02532%, rgba(0, 0, 0, 0) 62.02532%, rgba(0, 0, 0, 0) 63.29114%, rgba(100, 100, 225, 0.25) 63.29114%, rgba(100, 100, 225, 0.25) 68.35443%, rgba(0, 0, 0, 0) 68.35443%, rgba(0, 0, 0, 0) 69.62025%, rgba(100, 100, 225, 0.25) 69.62025%, rgba(100, 100, 225, 0.25) 74.68354%, rgba(0, 0, 0, 0) 74.68354%, rgba(0, 0, 0, 0) 75.94937%, rgba(100, 100, 225, 0.25) 75.94937%, rgba(100, 100, 225, 0.25) 81.01266%, rgba(0, 0, 0, 0) 81.01266%, rgba(0, 0, 0, 0) 82.27848%, rgba(100, 100, 225, 0.25) 82.27848%, rgba(100, 100, 225, 0.25) 87.34177%, rgba(0, 0, 0, 0) 87.34177%, rgba(0, 0, 0, 0) 88.60759%, rgba(100, 100, 225, 0.25) 88.60759%, rgba(100, 100, 225, 0.25) 93.67089%, rgba(0, 0, 0, 0) 93.67089%, rgba(0, 0, 0, 0) 94.93671%, rgba(100, 100, 225, 0.25) 94.93671%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+        background-position: left top;
+        -webkit-background-origin: content;
+        -moz-background-origin: content;
+        -ms-background-origin: content-box;
+        -o-background-origin: content-box;
+        background-origin: content-box;
+        -webkit-background-clip: content-box;
+        -moz-background-clip: content-box;
+        background-clip: content-box;
+    }
+
+    /* line 16, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #principal_container.container .background_video iframe {
+        position: absolute;
+        display: block;
+    }
+
+    /* line 20, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #principal_container.container .background_video .click_block {
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    /* line 26, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #principal_container.container .background_video .background_image {
+        display: none;
+    }
+
+    /* line 33, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #principal_container.container .header .container_left {
+        width: 43.03797%;
+        float: left;
+        margin-right: 1.26582%;
+    }
+
+    /* line 36, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #principal_container.container .header .container_right {
+        width: 50%;
+        float: right;
+        margin-right: 0;
+    }
+
+    /* line 40, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #principal_container.container .header .container_right .lenguages #s2id_pages_lenguage.select2-container {
+        width: 118px !important;
+    }
+
+    #principal_container.container .header .container_right #sound {
+        width: 30px;
+        height: 30px;
+        display: block;
+        display: inline;
+        float: right;
+        margin-top: -4px;
+        margin-right: 30px;
+        /* background: url("../images/note.png") no-repeat left top; */
+        cursor: pointer;
+        -webkit-transition: opacity 0.1s;
+        -moz-transition: opacity 0.1s;
+        -o-transition: opacity 0.1s;
+        transition: opacity 0.1s;
+    }
+
+    #principal_container.container .header .container_right #sound:hover {
+        opacity: 1;
+    }
+
+    #principal_container.container .header .container_right #sound.muted {
+        background-position: 0 -30px;
+    }
+
+    /* line 47, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #principal_message.principal_message {
+        max-width: none;
+        /*margin-top: -186px;*/
+    }
+
+    /* line 50, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #principal_message.principal_message p {
+        font-size: 1.5em;
+    }
+
+    /* line 53, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #principal_form.form {
+        margin: auto;
+    }
+
+    /* line 75, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .container {
+        width: 100%;
+        float: left;
+        margin-right: 1.26582%;
+        background: none;
+    }
+
+    /* line 79, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd,
+    .even,
+    .form_container {
+        position: relative;
+    }
+
+    /* line 83, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd .image .mobile_title,
+    .even .image .mobile_title,
+    .form_container .image .mobile_title {
+        display: none;
+    }
+
+    /* line 86, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd .image img,
+    .even .image img,
+    .form_container .image img {
+        position: absolute;
+    }
+
+    /* line 91, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd .title,
+    .even .title,
+    .form_container .title {
+        display: block;
+        margin-top: 46px;
+        margin-bottom: 22px;
+    }
+
+    /* line 96, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd .title h2,
+    .even .title h2,
+    .form_container .title h2 {
+        margin: 0 auto;
+        font-family: HelveticaNeueLtStd, "Helvetica neue", Helvetica, Arial, sans-serif;
+        font-size: 36.8px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1em;
+    }
+
+    /* line 104, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd .title h2 span,
+    .even .title h2 span,
+    .form_container .title h2 span {
+        display: block;
+        margin-bottom: 13px;
+        font-family: SavetheArtic, "Helvetica neue", Helvetica, Arial, sans-serif;
+        font-size: 43.2px;
+        font-weight: 700;
+        line-height: 1.25em;
+    }
+
+    /* line 111, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd .paragraphs,
+    .even .paragraphs,
+    .form_container .paragraphs {
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 3%;
+    }
+
+    /* line 117, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd .paragraphs p,
+    .even .paragraphs p,
+    .form_container .paragraphs p {
+        margin: 10px auto 0;
+        font-size: 1em;
+        line-height: 1.35em;
+    }
+
+    /* line 122, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd .paragraphs p.subtitle,
+    .even .paragraphs p.subtitle,
+    .form_container .paragraphs p.subtitle {
+        margin-top: 0;
+        margin-bottom: 18px;
+        font-size: 1.175em;
+        line-height: 1.23em;
+    }
+
+    /* line 128, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd .signnow,
+    .even .signnow,
+    .form_container .signnow {
+        margin: 0 auto 30px;
+    }
+
+    /* line 133, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd {
+        background: white;
+    }
+
+    /* line 135, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd .image {
+        width: 50%;
+        float: left;
+        margin-right: 1.26582%;
+    }
+
+    /* line 138, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd .title {
+        margin-left: 2.53165%;
+        width: 43.03797%;
+        float: right;
+        margin-right: 0;
+        position: relative;
+        float: left;
+        clear: right;
+    }
+
+    /* line 145, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd .paragraphs {
+        margin-left: 2.53165%;
+        width: 43.03797%;
+        float: right;
+        margin-right: 0;
+        float: left;
+        clear: right;
+    }
+
+    /* line 151, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .odd .signnow {
+        margin-left: 2.53165%;
+        width: 43.03797%;
+        float: right;
+        margin-right: 0;
+        float: left;
+        clear: right;
+    }
+
+    /* line 160, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .even {
+        background-color: #d3dee5;
+    }
+
+    /* line 162, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .even .image {
+        width: 50%;
+        float: right;
+        margin-right: 0;
+    }
+
+    /* line 165, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .even .image img {
+        position: absolute;
+    }
+
+    /* line 168, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .even .title {
+        width: 43.03797%;
+        float: left;
+        margin-right: 1.26582%;
+        margin-left: 3.79747%;
+        padding: 0;
+    }
+
+    /* line 174, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .even .paragraphs {
+        width: 43.03797%;
+        float: left;
+        margin-right: 1.26582%;
+        margin-left: 3.79747%;
+    }
+
+    /* line 179, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .even .signnow {
+        width: 43.03797%;
+        float: left;
+        margin-right: 1.26582%;
+        margin-left: 3.79747%;
+    }
+
+    /* line 184, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container {
+        width: 100%;
+        float: left;
+        margin-right: 1.26582%;
+        position: relative;
+    }
+
+    /* line 188, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .text {
+        position: relative;
+        width: 100%;
+        float: left;
+        padding-right: 3.79747%;
+        ;
+        padding-left: 3.79747%;
+        box-sizing: border-box;
+    }
+
+    /* line 193, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .text .title {
+        display: block;
+        margin-top: 46px;
+        margin-bottom: 22px;
+    }
+
+    /* line 200, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .text .title,
+    .form_container .text .paragraphs,
+    .form_container .text .social .share {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* line 208, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form {
+        margin-left: 2.53165%;
+        width: 43.03797%;
+        float: right;
+        margin-right: 0;
+        position: relative;
+        clear: none;
+        margin: 35px auto 22px 0;
+    }
+
+    /* line 214, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form #down_progress_bar.progress_bar {
+        width: 85.29412%;
+        float: left;
+        margin-right: 2.94118%;
+        margin: 35px auto 9px;
+    }
+
+    /* line 218, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form form#sign-form {
+        width: 85.29412%;
+        float: left;
+        margin-right: 2.94118%;
+        margin-top: 0;
+    }
+
+    /* line 221, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form form#sign-form fieldset {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    /* line 228, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form form#sign-form fieldset p .normal,
+    .form_container .form form#sign-form fieldset p .phone {
+        margin: 2px auto 2px;
+    }
+
+    /* line 2, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+    .form_container .form form#sign-form fieldset p .normal::-webkit-input-placeholder,
+    .form_container .form form#sign-form fieldset p .phone::-webkit-input-placeholder {
+        padding-left: 4px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 0.875em;
+    }
+
+    /* line 4, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+    .form_container .form form#sign-form fieldset p .normal:-moz-placeholder,
+    .form_container .form form#sign-form fieldset p .phone:-moz-placeholder {
+        padding-left: 4px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 0.875em;
+    }
+
+    /* line 6, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+    .form_container .form form#sign-form fieldset p .normal::-moz-placeholder,
+    .form_container .form form#sign-form fieldset p .phone::-moz-placeholder {
+        padding-left: 4px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 0.875em;
+    }
+
+    /* line 8, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_placeholder.sass */
+    .form_container .form form#sign-form fieldset p .normal:-ms-input-placeholder,
+    .form_container .form form#sign-form fieldset p .phone:-ms-input-placeholder {
+        padding-left: 4px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 0.875em;
+    }
+
+    /* line 240, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form form#sign-form fieldset p:first-child {
+        margin-top: 0;
+    }
+
+    /* line 243, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form form#sign-form fieldset p:first-child .normal {
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+
+    /* line 249, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form form#sign-form fieldset p:first-child .phone {
+        width: 49%;
+    }
+
+    /* line 252, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form form#sign-form fieldset p:first-child select.phone {
+        display: inline;
+        float: left;
+        margin-right: 2px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+        border-radius: 0px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 0.875em;
+        font-weight: 400;
+        color: white;
+    }
+
+    /* line 261, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form form#sign-form fieldset p:first-child input.phone {
+        float: right;
+    }
+
+    /* line 264, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form form#sign-form fieldset p:first-child .submit {
+        height: 40px;
+        width: 100%;
+        -webkit-box-shadow: 2px 1px 1px #7ea324;
+        -moz-box-shadow: 2px 1px 1px #7ea324;
+        box-shadow: 2px 1px 1px #7ea324;
+        text-shadow: 0px 0px 1px black;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        -ms-border-radius: 9px;
+        -o-border-radius: 9px;
+        border-radius: 9px;
+        font-size: 1.125em;
+        line-height: 1em;
+    }
+
+    /* line 276, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form .division_line {
+        position: relative;
+    }
+
+    /* line 279, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form .division_line .line {
+        position: absolute;
+        left: 15px;
+        right: -39px;
+    }
+
+    /* line 284, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form .social_authentication {
+        width: 100%;
+        padding: 0;
+        float: left;
+        position: relative;
+    }
+
+    /* line 287, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .form_container .form .social_authentication p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .form_container .footer {
+        width: 100%;
+        float: left;
+        margin-right: 1.26582%;
+    }
+
+    /* line 294, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .menu {
+        width: 100%;
+        float: left;
+        margin-right: 1.26582%;
+    }
+
+    /* line 298, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .menu .menu_container .container_left {
+        width: 48.734%;
+        float: left;
+        margin-right: 1.26582%;
+        position: relative;
+        margin-left: 3.79747%;
+    }
+
+    /* line 304, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .menu .menu_container .container_left ul.submenu {
+        list-style-image: none;
+        list-style-type: none;
+        margin-left: 0;
+    }
+
+    /* line 307, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .menu .menu_container .container_left ul.submenu li a {
+        color: white;
+        color: inherit;
+        text-decoration: inherit;
+        cursor: inherit;
+    }
+
+    /* line 18, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    .menu .menu_container .container_left ul.submenu li a:visited {
+        color: white;
+    }
+
+    /* line 21, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    .menu .menu_container .container_left ul.submenu li a:focus {
+        color: white;
+    }
+
+    /* line 24, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    .menu .menu_container .container_left ul.submenu li a:hover {
+        color: white;
+    }
+
+    /* line 27, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    .menu .menu_container .container_left ul.submenu li a:active {
+        color: white;
+    }
+
+    /* line 6, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+    .menu .menu_container .container_left ul.submenu li a:active,
+    .menu .menu_container .container_left ul.submenu li a:focus {
+        outline: none;
+    }
+
+    /* line 313, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .menu .menu_container .container_left ul.submenu.elements {
+        display: block;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        overflow: hidden;
+    }
+
+    /* line 60, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    .menu .menu_container .container_left ul.submenu.elements li {
+        list-style-image: none;
+        list-style-type: none;
+        margin-left: 0;
+        white-space: nowrap;
+        display: inline;
+        float: left;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    /* line 48, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    .menu .menu_container .container_left ul.submenu.elements li:first-child,
+    .menu .menu_container .container_left ul.submenu.elements li.first {
+        padding-left: 0;
+    }
+
+    /* line 49, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    .menu .menu_container .container_left ul.submenu.elements li:last-child {
+        padding-right: 0;
+    }
+
+    /* line 50, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    .menu .menu_container .container_left ul.submenu.elements li.last {
+        padding-right: 0;
+    }
+
+    /* line 317, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .menu .menu_container .container_left ul.submenu.elements li {
+        width: 30%;
+    }
+
+    /* line 319, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .menu .menu_container .container_left ul.submenu.elements li:first-child,
+    .menu .menu_container .container_left ul.submenu.elements li:last-child {
+        display: none;
+    }
+
+    /* line 322, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .menu .menu_container .container_left ul.submenu.elements li a {
+        display: block;
+        padding-top: 12px;
+        list-style-image: none;
+        list-style-type: none;
+        margin-left: 0;
+        white-space: nowrap;
+        display: inline;
+        float: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: HelveticaNeueLtStd, "Helvetica neue", Helvetica, Arial, sans-serif;
+        font-size: 0.875em;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.5em;
+        color: white;
+    }
+
+    /* line 48, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    .menu .menu_container .container_left ul.submenu.elements li a:first-child,
+    .menu .menu_container .container_left ul.submenu.elements li a.first {
+        padding-left: 0;
+    }
+
+    /* line 49, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    .menu .menu_container .container_left ul.submenu.elements li a:last-child {
+        padding-right: 0;
+    }
+
+    /* line 50, /Users/lattecreative/.rvm/gems/ruby-1.9.3-p547/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    .menu .menu_container .container_left ul.submenu.elements li a.last {
+        padding-right: 0;
+    }
+
+    /* line 332, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .menu .menu_container .container_left ul.submenu.elements li a span {
+        display: block;
+        font-family: SavetheArtic, "Helvetica neue", Helvetica, Arial, sans-serif;
+        font-size: 0.875em;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    /* line 342, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .menu .menu_container .container_left ul.submenu.points li:first-child {
+        margin-left: 0;
+    }
+
+    /* line 345, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    .menu .menu_container .container_right {
+        width: 43.03797%;
+        float: right;
+        margin-right: 0;
+        margin-right: 2.53165%;
+    }
+
+    /*Thank you page */
+    body[lang=es-CO] #thankyou.container .share_donate .social .share {
+        width: 50% !important;
+    }
+
+    /* line 351, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container {
+        position: relative;
+        min-height: 550px !important;
+    }
+
+    /* line 358, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .backdrop .header .share p {
+        display: block;
+    }
+
+    /* line 361, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .backdrop .message {
+        height: 120px;
+    }
+
+    /* line 363, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .backdrop .message h2 {
+        margin: 0;
+        font-size: 1.375em;
+        line-height: 1.7em;
+    }
+
+    /* line 368, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .backdrop .message h2 span {
+        font-size: 1.75em;
+    }
+
+    /* line 371, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .share_donate {
+        width: 100%;
+        float: left;
+        margin-right: 1.26582%;
+    }
+
+    /* line 374, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .share_donate .title {
+        width: 100%;
+        float: left;
+        margin-right: 1.26582%;
+        margin: 40px auto 27px;
+    }
+
+    /* line 378, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .share_donate .title h2 {
+        font-size: 1.75em;
+    }
+
+    /* line 381, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .share_donate .social {
+        width: 100%;
+        float: left;
+        margin-right: 1.26582%;
+        margin-top: 10px;
+    }
+
+    #thankyou.container .no-h2 .social {
+        margin-top: 65px !important;
+    }
+
+    /* line 384, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .share_donate .social .share {
+        width: 43.03797%;
+        float: left;
+        margin-right: 1.26582%;
+        padding-top: 12px;
+    }
+
+    /* line 388, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .share_donate .social .share .fb,
+    #thankyou.container .share_donate .social .share .tw {
+        width: 200px;
+    }
+
+    /* line 392, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .share_donate .social .share .fb p,
+    #thankyou.container .share_donate .social .share .tw p {
+        margin: 0;
+        font-size: 1em;
+    }
+
+    /* line 397, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .share_donate .social .share .tw p {
+        padding-right: 26px;
+    }
+
+    /* line 402, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .share_donate .social .donate {
+        width: 50%;
+        float: right;
+        margin-right: 0;
+        height: 84px;
+        margin-top: 0;
+    }
+
+    /* line 407, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .share_donate .social .donate .submit {
+        height: 76px;
+        width: 228px;
+        text-align: center;
+    }
+
+    /* line 413, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_960grid.sass */
+    #thankyou.container .share_donate .social .donate .submit a p {
+        margin: 0;
+        padding-top: 6px;
+    }
+
+    /* line 507, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_960grid.sass */
+    #thankyou.container .donation_container {
+        position: relative;
+        width: 100%;
+        float: left;
+        margin-right: 1.26582%;
+    }
+
+    /* line 511, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_960grid.sass */
+    #thankyou.container .donation_container #donation_form {
+        position: relative;
+        width: 74.68354%;
+        float: left;
+        margin-right: 1.26582%;
+        margin-left: 12.65823%;
+        margin-right: 12.65823%;
+    }
+
+    /* line 518, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_960grid.sass */
+    #thankyou.container .donation_container #donation_form #df_amount,
+    #thankyou.container .donation_container #donation_form #df_personal_info,
+    #thankyou.container .donation_container #donation_form #df_donation_info,
+    #thankyou.container .donation_container #donation_form #df_credits {
+        padding-left: 3.79747%;
+        padding-right: 3.79747%;
+    }
+
+    /* line 522, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_960grid.sass */
+    #thankyou.container .donation_container #donation_form #df_personal_info,
+    #thankyou.container .donation_container #donation_form #df_donation_info,
+    #thankyou.container .donation_container #donation_form #df_credits {
+        margin-top: 36px;
+    }
+
+    /* line 525, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_960grid.sass */
+    #thankyou.container .donation_container #donation_form #df_amount {
+        margin-top: 40px;
+    }
+
+    /* line 536, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_960grid.sass */
+    #thankyou.container .donation_container #donation_form #df_amount ul li.container_left {
+        width: 50%;
+        float: left;
+        margin-right: 1.26582%;
+    }
+
+    /* line 538, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_960grid.sass */
+    #thankyou.container .donation_container #donation_form #df_amount ul li.container_right {
+        width: 50%;
+        float: right;
+        margin-right: 0;
+    }
+
+    /* line 547, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArtic/source/css/partials/_960grid.sass */
+    #thankyou.container .donation_container #donation_form #df_credits {
+        text-align: right;
+    }
+}
+
+
+/* line 50, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/application.css.sass */
+*:focus {
+    outline-style: none;
+    outline-width: 0px;
+}
+
+/*
+Version: 3.5.0 Timestamp: Mon Jun 16 19:29:44 EDT 2014
+*/
+
+.select2-container {
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    /* inline-block for ie7 */
+    zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+}
+
+.select2-container,
+.select2-drop,
+.select2-search,
+.select2-search input {
+    /*
+      Force border-box so that % widths fit the parent
+      container without overlap because of margin/padding.
+      More Info : http://www.quirksmode.org/css/box.html
+    */
+    -webkit-box-sizing: border-box;
+    /* webkit */
+    -moz-box-sizing: border-box;
+    /* firefox */
+    box-sizing: border-box;
+    /* css3 */
+}
+
+.select2-container .select2-choice {
+    display: block;
+    height: 26px;
+    padding: 0 0 0 8px;
+    overflow: hidden;
+    position: relative;
+
+    border: 1px solid #aaa;
+    white-space: nowrap;
+    line-height: 26px;
+    color: #444;
+    text-decoration: none;
+
+    border-radius: 4px;
+
+    background-clip: padding-box;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.5, #fff));
+    background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 50%);
+    background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0);
+    background-image: linear-gradient(to top, #eee 0%, #fff 50%);
+}
+
+html[dir="rtl"] .select2-container .select2-choice {
+    padding: 0 8px 0 0;
+}
+
+.select2-container.select2-drop-above .select2-choice {
+    border-bottom-color: #aaa;
+
+    border-radius: 0 0 4px 4px;
+
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.9, #fff));
+    background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 90%);
+    background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0);
+    background-image: linear-gradient(to bottom, #eee 0%, #fff 90%);
+}
+
+.select2-container.select2-allowclear .select2-choice .select2-chosen {
+    margin-right: 42px;
+}
+
+.select2-container .select2-choice>.select2-chosen {
+    margin-right: 26px;
+    display: block;
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    text-overflow: ellipsis;
+    float: none;
+    width: auto;
+}
+
+html[dir="rtl"] .select2-container .select2-choice>.select2-chosen {
+    margin-left: 26px;
+    margin-right: 0;
+}
+
+.select2-container .select2-choice abbr {
+    display: none;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 24px;
+    top: 8px;
+
+    font-size: 1px;
+    text-decoration: none;
+
+    border: 0;
+    background: url('select2.png') right top no-repeat;
+    cursor: pointer;
+    outline: 0;
+}
+
+.select2-container.select2-allowclear .select2-choice abbr {
+    display: inline-block;
+}
+
+.select2-container .select2-choice abbr:hover {
+    background-position: right -11px;
+    cursor: pointer;
+}
+
+.select2-drop-mask {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    z-index: 9998;
+    /* styles required for IE to work */
+    background-color: #fff;
+    filter: alpha(opacity=0);
+}
+
+.select2-drop {
+    width: 100%;
+    margin-top: -1px;
+    position: absolute;
+    z-index: 9999;
+    top: 100%;
+
+    background: #fff;
+    color: #000;
+    border: 1px solid #aaa;
+    border-top: 0;
+
+    border-radius: 0 0 4px 4px;
+
+    -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
+}
+
+.select2-drop.select2-drop-above {
+    margin-top: 1px;
+    border-top: 1px solid #aaa;
+    border-bottom: 0;
+
+    border-radius: 4px 4px 0 0;
+
+    -webkit-box-shadow: 0 -4px 5px rgba(0, 0, 0, .15);
+    box-shadow: 0 -4px 5px rgba(0, 0, 0, .15);
+}
+
+.select2-drop-active {
+    border: 1px solid #5897fb;
+    border-top: none;
+}
+
+.select2-drop.select2-drop-above.select2-drop-active {
+    border-top: 1px solid #5897fb;
+}
+
+.select2-drop-auto-width {
+    border-top: 1px solid #aaa;
+    width: auto;
+}
+
+.select2-drop-auto-width .select2-search {
+    padding-top: 4px;
+}
+
+.select2-container .select2-choice .select2-arrow {
+    display: inline-block;
+    width: 18px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    border-left: 1px solid #aaa;
+    border-radius: 0 4px 4px 0;
+
+    background-clip: padding-box;
+
+    background: #ccc;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ccc), color-stop(0.6, #eee));
+    background-image: -webkit-linear-gradient(center bottom, #ccc 0%, #eee 60%);
+    background-image: -moz-linear-gradient(center bottom, #ccc 0%, #eee 60%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#cccccc', GradientType=0);
+    background-image: linear-gradient(to top, #ccc 0%, #eee 60%);
+}
+
+html[dir="rtl"] .select2-container .select2-choice .select2-arrow {
+    left: 0;
+    right: auto;
+
+    border-left: none;
+    border-right: 1px solid #aaa;
+    border-radius: 4px 0 0 4px;
+}
+
+.select2-container .select2-choice .select2-arrow b {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('select2.png') no-repeat 0 1px;
+}
+
+html[dir="rtl"] .select2-container .select2-choice .select2-arrow b {
+    background-position: 2px 1px;
+}
+
+.select2-search {
+    display: inline-block;
+    width: 100%;
+    min-height: 26px;
+    margin: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+
+    position: relative;
+    z-index: 10000;
+
+    white-space: nowrap;
+}
+
+.select2-search input {
+    width: 100%;
+    height: auto !important;
+    min-height: 26px;
+    padding: 4px 20px 4px 5px;
+    margin: 0;
+
+    outline: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+
+    border: 1px solid #aaa;
+    border-radius: 0;
+
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    background: #fff url('select2.png') no-repeat 100% -22px;
+    background: url('select2.png') no-repeat 100% -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #fff), color-stop(0.99, #eee));
+    background: url('select2.png') no-repeat 100% -22px, -webkit-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: url('select2.png') no-repeat 100% -22px, -moz-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: url('select2.png') no-repeat 100% -22px, linear-gradient(to bottom, #fff 85%, #eee 99%) 0 0;
+}
+
+html[dir="rtl"] .select2-search input {
+    padding: 4px 5px 4px 20px;
+
+    background: #fff url('select2.png') no-repeat -37px -22px;
+    background: url('select2.png') no-repeat -37px -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #fff), color-stop(0.99, #eee));
+    background: url('select2.png') no-repeat -37px -22px, -webkit-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: url('select2.png') no-repeat -37px -22px, -moz-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: url('select2.png') no-repeat -37px -22px, linear-gradient(to bottom, #fff 85%, #eee 99%) 0 0;
+}
+
+.select2-drop.select2-drop-above .select2-search input {
+    margin-top: 4px;
+}
+
+.select2-search input.select2-active {
+    background: #fff url('select2-spinner.gif') no-repeat 100%;
+    background: url('select2-spinner.gif') no-repeat 100%, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #fff), color-stop(0.99, #eee));
+    background: url('select2-spinner.gif') no-repeat 100%, -webkit-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: url('select2-spinner.gif') no-repeat 100%, -moz-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: url('select2-spinner.gif') no-repeat 100%, linear-gradient(to bottom, #fff 85%, #eee 99%) 0 0;
+}
+
+.select2-container-active .select2-choice,
+.select2-container-active .select2-choices {
+    border: 1px solid #5897fb;
+    outline: none;
+
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.select2-dropdown-open .select2-choice {
+    border-bottom-color: transparent;
+    -webkit-box-shadow: 0 1px 0 #fff inset;
+    box-shadow: 0 1px 0 #fff inset;
+
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+    background-color: #eee;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #fff), color-stop(0.5, #eee));
+    background-image: -webkit-linear-gradient(center bottom, #fff 0%, #eee 50%);
+    background-image: -moz-linear-gradient(center bottom, #fff 0%, #eee 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0);
+    background-image: linear-gradient(to top, #fff 0%, #eee 50%);
+}
+
+.select2-dropdown-open.select2-drop-above .select2-choice,
+.select2-dropdown-open.select2-drop-above .select2-choices {
+    border: 1px solid #5897fb;
+    border-top-color: transparent;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(0.5, #eee));
+    background-image: -webkit-linear-gradient(center top, #fff 0%, #eee 50%);
+    background-image: -moz-linear-gradient(center top, #fff 0%, #eee 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0);
+    background-image: linear-gradient(to bottom, #fff 0%, #eee 50%);
+}
+
+.select2-dropdown-open .select2-choice .select2-arrow {
+    background: transparent;
+    border-left: none;
+    filter: none;
+}
+
+html[dir="rtl"] .select2-dropdown-open .select2-choice .select2-arrow {
+    border-right: none;
+}
+
+.select2-dropdown-open .select2-choice .select2-arrow b {
+    background-position: -18px 1px;
+}
+
+html[dir="rtl"] .select2-dropdown-open .select2-choice .select2-arrow b {
+    background-position: -16px 1px;
+}
+
+.select2-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* results */
+.select2-results {
+    max-height: 200px;
+    padding: 0 0 0 4px;
+    margin: 4px 4px 4px 0;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html[dir="rtl"] .select2-results {
+    padding: 0 4px 0 0;
+    margin: 4px 0 4px 4px;
+}
+
+.select2-results ul.select2-result-sub {
+    margin: 0;
+    padding-left: 0;
+}
+
+.select2-results li {
+    list-style: none;
+    display: list-item;
+    background-image: none;
+}
+
+.select2-results li.select2-result-with-children>.select2-result-label {
+    font-weight: bold;
+}
+
+.select2-results .select2-result-label {
+    padding: 3px 7px 4px;
+    margin: 0;
+    cursor: pointer;
+
+    min-height: 1em;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.select2-results-dept-1 .select2-result-label {
+    padding-left: 20px
+}
+
+.select2-results-dept-2 .select2-result-label {
+    padding-left: 40px
+}
+
+.select2-results-dept-3 .select2-result-label {
+    padding-left: 60px
+}
+
+.select2-results-dept-4 .select2-result-label {
+    padding-left: 80px
+}
+
+.select2-results-dept-5 .select2-result-label {
+    padding-left: 100px
+}
+
+.select2-results-dept-6 .select2-result-label {
+    padding-left: 110px
+}
+
+.select2-results-dept-7 .select2-result-label {
+    padding-left: 120px
+}
+
+.select2-results .select2-highlighted {
+    background: #3875d7;
+    color: #fff;
+}
+
+.select2-results li em {
+    background: #feffde;
+    font-style: normal;
+}
+
+.select2-results .select2-highlighted em {
+    background: transparent;
+}
+
+.select2-results .select2-highlighted ul {
+    background: #fff;
+    color: #000;
+}
+
+
+.select2-results .select2-no-results,
+.select2-results .select2-searching,
+.select2-results .select2-selection-limit {
+    background: #f4f4f4;
+    display: list-item;
+    padding-left: 5px;
+}
+
+/*
+disabled look for disabled choices in the results dropdown
+*/
+.select2-results .select2-disabled.select2-highlighted {
+    color: #666;
+    background: #f4f4f4;
+    display: list-item;
+    cursor: default;
+}
+
+.select2-results .select2-disabled {
+    background: #f4f4f4;
+    display: list-item;
+    cursor: default;
+}
+
+.select2-results .select2-selected {
+    display: none;
+}
+
+.select2-more-results.select2-active {
+    background: #f4f4f4 url('select2-spinner.gif') no-repeat 100%;
+}
+
+.select2-more-results {
+    background: #f4f4f4;
+    display: list-item;
+}
+
+/* disabled styles */
+
+.select2-container.select2-container-disabled .select2-choice {
+    background-color: #f4f4f4;
+    background-image: none;
+    border: 1px solid #ddd;
+    cursor: default;
+}
+
+.select2-container.select2-container-disabled .select2-choice .select2-arrow {
+    background-color: #f4f4f4;
+    background-image: none;
+    border-left: 0;
+}
+
+.select2-container.select2-container-disabled .select2-choice abbr {
+    display: none;
+}
+
+
+/* multiselect */
+
+.select2-container-multi .select2-choices {
+    height: auto !important;
+    height: 1%;
+    margin: 0;
+    padding: 0 5px 0 0;
+    position: relative;
+
+    border: 1px solid #aaa;
+    cursor: text;
+    overflow: hidden;
+
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eee), color-stop(15%, #fff));
+    background-image: -webkit-linear-gradient(top, #eee 1%, #fff 15%);
+    background-image: -moz-linear-gradient(top, #eee 1%, #fff 15%);
+    background-image: linear-gradient(to bottom, #eee 1%, #fff 15%);
+}
+
+html[dir="rtl"] .select2-container-multi .select2-choices {
+    padding: 0 0 0 5px;
+}
+
+.select2-locked {
+    padding: 3px 5px 3px 5px !important;
+}
+
+.select2-container-multi .select2-choices {
+    min-height: 26px;
+}
+
+.select2-container-multi.select2-container-active .select2-choices {
+    border: 1px solid #5897fb;
+    outline: none;
+
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.select2-container-multi .select2-choices li {
+    float: left;
+    list-style: none;
+}
+
+html[dir="rtl"] .select2-container-multi .select2-choices li {
+    float: right;
+}
+
+.select2-container-multi .select2-choices .select2-search-field {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.select2-container-multi .select2-choices .select2-search-field input {
+    padding: 5px;
+    margin: 1px 0;
+
+    font-family: sans-serif;
+    font-size: 100%;
+    color: #666;
+    outline: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: transparent !important;
+}
+
+.select2-container-multi .select2-choices .select2-search-field input.select2-active {
+    background: #fff url('select2-spinner.gif') no-repeat 100% !important;
+}
+
+.select2-default {
+    color: #999 !important;
+}
+
+.select2-container-multi .select2-choices .select2-search-choice {
+    padding: 3px 5px 3px 18px;
+    margin: 3px 0 3px 5px;
+    position: relative;
+
+    line-height: 13px;
+    color: #333;
+    cursor: default;
+    border: 1px solid #aaaaaa;
+
+    border-radius: 3px;
+
+    -webkit-box-shadow: 0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+
+    background-clip: padding-box;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    background-color: #e4e4e4;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#f4f4f4', GradientType=0);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eee));
+    background-image: -webkit-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
+    background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
+    background-image: linear-gradient(to top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
+}
+
+html[dir="rtl"] .select2-container-multi .select2-choices .select2-search-choice {
+    margin: 3px 5px 3px 0;
+    padding: 3px 18px 3px 5px;
+}
+
+.select2-container-multi .select2-choices .select2-search-choice .select2-chosen {
+    cursor: default;
+}
+
+.select2-container-multi .select2-choices .select2-search-choice-focus {
+    background: #d4d4d4;
+}
+
+.select2-search-choice-close {
+    display: block;
+    width: 12px;
+    height: 13px;
+    position: absolute;
+    right: 3px;
+    top: 4px;
+
+    font-size: 1px;
+    outline: none;
+    background: url('select2.png') right top no-repeat;
+}
+
+html[dir="rtl"] .select2-search-choice-close {
+    right: auto;
+    left: 3px;
+}
+
+.select2-container-multi .select2-search-choice-close {
+    left: 3px;
+}
+
+html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
+    left: auto;
+    right: 2px;
+}
+
+.select2-container-multi .select2-choices .select2-search-choice .select2-search-choice-close:hover {
+    background-position: right -11px;
+}
+
+.select2-container-multi .select2-choices .select2-search-choice-focus .select2-search-choice-close {
+    background-position: right -11px;
+}
+
+/* disabled styles */
+.select2-container-multi.select2-container-disabled .select2-choices {
+    background-color: #f4f4f4;
+    background-image: none;
+    border: 1px solid #ddd;
+    cursor: default;
+}
+
+.select2-container-multi.select2-container-disabled .select2-choices .select2-search-choice {
+    padding: 3px 5px 3px 5px;
+    border: 1px solid #ddd;
+    background-image: none;
+    background-color: #f4f4f4;
+}
+
+.select2-container-multi.select2-container-disabled .select2-choices .select2-search-choice .select2-search-choice-close {
+    display: none;
+    background: none;
+}
+
+/* end multiselect */
+
+
+.select2-result-selectable .select2-match,
+.select2-result-unselectable .select2-match {
+    text-decoration: underline;
+}
+
+.select2-offscreen,
+.select2-offscreen:focus {
+    clip: rect(0 0 0 0) !important;
+    width: 1px !important;
+    height: 1px !important;
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    outline: 0 !important;
+    left: 0px !important;
+    top: 0px !important;
+}
+
+.select2-display-none {
+    display: none;
+}
+
+.select2-measure-scrollbar {
+    position: absolute;
+    top: -10000px;
+    left: -10000px;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+
+/* Retina-ize icons */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 2dppx) {
+
+    .select2-search input,
+    .select2-search-choice-close,
+    .select2-container .select2-choice abbr,
+    .select2-container .select2-choice .select2-arrow b {
+        background-image: url('select2x2.png') !important;
+        background-repeat: no-repeat !important;
+        background-size: 60px 40px !important;
+    }
+
+    .select2-search input {
+        background-position: 100% -21px !important;
+    }
+}
+
+#principal_form.form .text_email_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 21px;
+    /* margin-bottom: 25px; */
+    border-top: 1px solid #999999;
+}
+
+#principal_form.form .text_email_container .expand_email_text {
+    min-height: 30px;
+}
+
+#principal_form.form .text_email_container .expand_email_text .message {
+    float: left;
+}
+
+#principal_form.form .text_email_container .expand_email_text .arrow_up {
+    display: none;
+}
+
+#principal_form.form .text_email_container .expand_email_text .arrow_down {
+    float: right;
+    margin-top: 17px;
+}
+
+#principal_form.form .text_email_container .expand_email_text .arrow_up {
+    float: right;
+    margin-top: 17px;
+}
+
+#principal_form.form .text_email_container .text_box {
+    position: relative;
+    display: none;
+    clear: both;
+    width: 100%;
+    margin-bottom: 12px;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: white;
+}
+
+#principal_form.form .text_email_container .text_box p {
+    margin: 0;
+    padding: 20px 20px 6px 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1em;
+    color: #999999;
+}
+
+#principal_form.form .text_email_container .text_box p textarea {
+    height: 204px;
+    width: 100%;
+    border: none;
+    resize: none;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #999999;
+}
+
+/* ERROR CHECKBOX IN MAIN FORM */
+#principal_form.form form#center_sign-form fieldset p span.error_checkbox {
+    display: none;
+    color: #eb2b37;
+    padding-bottom: 4px;
+    padding-left: 0px;
+    width: 100%;
+    float: left;
+}
+
+
+#principal_form.form form#center_sign-form fieldset p.checkbox.checkbox__ko label,
+#principal_form.form form#center_sign-form fieldset p.checkbox.checkbox__privacy_extra label {
+    display: inline-block;
+    float: none;
+    font-size: 12px;
+    width: 87%;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+.checkbox__ko a:link,
+.checkbox__ko a:visited,
+.checkbox__privacy_extra a:link,
+.checkbox__privacy_extra a:visited {
+    color: #3677d4;
+    text-decoration: none;
+}
+
+.checkbox__ko a:hover,
+.checkbox__privacy_extra a:hover {
+    opacity: 0.7;
+}
