@@ -6,12 +6,6 @@ const shareFBUrl = "https://cloud.greenhk.greenpeace.org/petition-oceans-sanctua
 const shareLineUrl = "https://cloud.greenhk.greenpeace.org/petition-oceans-sanctuaries?utm_campaign=2020-ocean_sanctuaries&utm_source=facebook&utm_medium=socialorganic&utm_content=2020-ocean_sanctuaries_petition_tkpage";
 const redirectDonateLink = "https://supporter.ea.greenpeace.org/hk/s/donate?campaign=oceans&ref=2020-oceans_sanctuaries_thankyou_page"
 
-const urlParams = new URLSearchParams(window.location.search);
-const utm_souce = urlParams.get('utm_souce');
-if (utm_souce === "dd") {
-	$(".is-hidden-at-dd-page-only").hide();
-}
-
 // definitions
 let phoneRules = {
 	"852": {
@@ -121,25 +115,51 @@ var pageInit = function(){
         '請填上有效電郵地址'
     );
 
-    $.validator.addMethod(
-        "hk-phone",
-        function (value, element) {
-            //const phoneReg1 = new RegExp(/^[5,6,9]{1}[0-9]{7}$/).test(value);            
-			let target = $('#center_countrycode').val();
-			//console.log('use', phoneRules[target].pattern)			
-            if ((new RegExp(phoneRules[target].pattern)).test(value)) {
-                return true
-            }
-            //console.log('phone testing')
-            return false
-        },
-        "請填上有效手提號碼")
+	$.validator.addClassRules({ // connect it to a css class
+		"email": {email: true},
+	});
 
-    $.validator.addClassRules({ // connect it to a css class
-        "email": {email: true},
-        "hk-phone" : { "hk-phone" : true }
-    });
+	$.validator.addMethod( "hk-phone", function (value, element) {
+		//const phoneReg1 = new RegExp(/^[5,6,9]{1}[0-9]{7}$/).test(value);            
+		let target = $('#center_countrycode').val();
+		//console.log('use', phoneRules[target].pattern)			
+		if ((new RegExp(phoneRules[target].pattern)).test(value)) {
+			return true
+		}
+		//console.log('phone testing')
+		return false
+	}, "請填上有效手提號碼")
 
+	// checking if is DD page
+	const urlParams = new URLSearchParams(window.location.search);
+	const utm_source = urlParams.get('utm_source');
+	
+	if (utm_source === "dd") {
+		$(".is-hidden-at-dd-page-only").hide();
+		
+		$('#center_phone').removeAttr("required"); //移除電話欄位 required Attr
+		$.validator.addClassRules({ 
+			"hk-phone" : { "hk-phone" : false }
+		});
+
+		$("#center_phone").change(function(){
+			if ($(this).val()) {
+				$.validator.addClassRules({ 
+					"hk-phone" : { "hk-phone" : true }
+				});
+			} else {
+				$.validator.addClassRules({ 
+					"hk-phone" : { "hk-phone" : false }
+				});
+			}
+		})
+		
+	} else {
+		$.validator.addClassRules({ 
+			"hk-phone" : { "hk-phone" : true }
+		});
+	}
+    
     $("#center_sign-form").validate({
         errorPlacement: function(error, element) {
 			// console.log(error)
@@ -156,7 +176,7 @@ var pageInit = function(){
 			$('#mc-form [name="MobileCountryCode"]').val($('#center_countrycode').val());
 
 			if (!$('#center_phone').prop('required') && !$('#center_phone').val()) {
-			 	$('#mc-form [name="MobilePhone"]').val('0900000000');
+			 	$('#mc-form [name="MobilePhone"]').val('20000000');
 			} else {
 			 	$('#mc-form [name="MobilePhone"]').val($('#center_phone').val());
 			}
