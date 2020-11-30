@@ -211,7 +211,7 @@ var pageInit = function(){
 				//console.log('fetch response', response);
 				if (response) {
 					if (response.Supporter) { // ok, go to next page
-						sendPetitionTracking("2020-savethearctic");
+						sendPetitionTracking("2020-sanctuaries");
 					}
 
 					hideFullPageLoading();
